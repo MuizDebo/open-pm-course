@@ -484,61 +484,33 @@ export default [
     "items": [
       {
         "label": "6.1 Types of data and what they can tell you",
-        "slug": "06-data-and-metrics/6-1-types-of-data-and-what-they-can-tell-you",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "06-data-and-metrics/6-1-types-of-data-and-what-they-can-tell-you"
       },
       {
         "label": "6.2 Metrics that matter",
-        "slug": "06-data-and-metrics/6-2-metrics-that-matter",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "06-data-and-metrics/6-2-metrics-that-matter"
       },
       {
         "label": "6.3 Funnels, cohorts and segments",
-        "slug": "06-data-and-metrics/6-3-funnels-cohorts-and-segments",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "06-data-and-metrics/6-3-funnels-cohorts-and-segments"
       },
       {
         "label": "6.4 Experiments",
-        "slug": "06-data-and-metrics/6-4-experiments",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "06-data-and-metrics/6-4-experiments"
       },
       {
         "label": "6.5 SQL and spreadsheets for PMs",
-        "slug": "06-data-and-metrics/6-5-sql-and-spreadsheets-for-pms",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "06-data-and-metrics/6-5-sql-and-spreadsheets-for-pms"
       },
       {
         "label": "6.6 Dashboards",
-        "slug": "06-data-and-metrics/6-6-dashboards",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "06-data-and-metrics/6-6-dashboards"
       },
       {
         "label": "6.7 Metrics tree and dashboard",
         "slug": "06-data-and-metrics/6-7-metrics-tree-and-dashboard",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
@@ -546,10 +518,6 @@ export default [
         "slug": "06-data-and-metrics/6-8-experiment-analysis",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       }
     ]

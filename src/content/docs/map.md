@@ -149,14 +149,14 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ## 6 · Data and metrics
 
-- [6.1 Types of data and what they can tell you](/open-pm-course/06-data-and-metrics/6-1-types-of-data-and-what-they-can-tell-you/) *draft*
-- [6.2 Metrics that matter](/open-pm-course/06-data-and-metrics/6-2-metrics-that-matter/) *draft*
-- [6.3 Funnels, cohorts and segments](/open-pm-course/06-data-and-metrics/6-3-funnels-cohorts-and-segments/) *draft*
-- [6.4 Experiments](/open-pm-course/06-data-and-metrics/6-4-experiments/) *draft*
-- [6.5 SQL and spreadsheets for PMs](/open-pm-course/06-data-and-metrics/6-5-sql-and-spreadsheets-for-pms/) *draft*
-- [6.6 Dashboards](/open-pm-course/06-data-and-metrics/6-6-dashboards/) *draft*
-- [6.7 Metrics tree and dashboard](/open-pm-course/06-data-and-metrics/6-7-metrics-tree-and-dashboard/) **Project** *draft*
-- [6.8 Experiment analysis](/open-pm-course/06-data-and-metrics/6-8-experiment-analysis/) **Project** *draft*
+- [6.1 Types of data and what they can tell you](/open-pm-course/06-data-and-metrics/6-1-types-of-data-and-what-they-can-tell-you/)
+- [6.2 Metrics that matter](/open-pm-course/06-data-and-metrics/6-2-metrics-that-matter/)
+- [6.3 Funnels, cohorts and segments](/open-pm-course/06-data-and-metrics/6-3-funnels-cohorts-and-segments/)
+- [6.4 Experiments](/open-pm-course/06-data-and-metrics/6-4-experiments/)
+- [6.5 SQL and spreadsheets for PMs](/open-pm-course/06-data-and-metrics/6-5-sql-and-spreadsheets-for-pms/)
+- [6.6 Dashboards](/open-pm-course/06-data-and-metrics/6-6-dashboards/)
+- [6.7 Metrics tree and dashboard](/open-pm-course/06-data-and-metrics/6-7-metrics-tree-and-dashboard/) **Project**
+- [6.8 Experiment analysis](/open-pm-course/06-data-and-metrics/6-8-experiment-analysis/) **Project**
 
 ## 7 · AI product management
 
