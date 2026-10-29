@@ -316,37 +316,21 @@ export default [
         "items": [
           {
             "label": "4.1.1 Vision, strategy, narrative",
-            "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-1-vision-strategy-narrative",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-1-vision-strategy-narrative"
           },
           {
             "label": "4.1.2 Wedges and systems",
-            "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-2-wedges-and-systems",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-2-wedges-and-systems"
           },
           {
             "label": "4.1.3 Strategy frameworks",
-            "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-3-strategy-frameworks",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-3-strategy-frameworks"
           },
           {
             "label": "4.1.4 Narrative and system map",
             "slug": "04-strategy-and-prioritisation/4-1-strategy/4-1-4-narrative-and-system-map",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -357,45 +341,25 @@ export default [
         "items": [
           {
             "label": "4.2.1 Goals and OKRs",
-            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-1-goals-and-okrs",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-1-goals-and-okrs"
           },
           {
             "label": "4.2.2 Roadmaps",
-            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-2-roadmaps",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-2-roadmaps"
           },
           {
             "label": "4.2.3 Prioritisation frameworks",
-            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-3-prioritisation-frameworks",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-3-prioritisation-frameworks"
           },
           {
             "label": "4.2.4 Planning rituals",
-            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-4-planning-rituals",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-4-planning-rituals"
           },
           {
             "label": "4.2.5 Strategy pack",
             "slug": "04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-5-strategy-pack",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]

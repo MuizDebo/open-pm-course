@@ -102,18 +102,18 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 4.1 Strategy
 
-- [4.1.1 Vision, strategy, narrative](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-1-vision-strategy-narrative/) *draft*
-- [4.1.2 Wedges and systems](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-2-wedges-and-systems/) *draft*
-- [4.1.3 Strategy frameworks](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-3-strategy-frameworks/) *draft*
-- [4.1.4 Narrative and system map](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-4-narrative-and-system-map/) **Project** *draft*
+- [4.1.1 Vision, strategy, narrative](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-1-vision-strategy-narrative/)
+- [4.1.2 Wedges and systems](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-2-wedges-and-systems/)
+- [4.1.3 Strategy frameworks](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-3-strategy-frameworks/)
+- [4.1.4 Narrative and system map](/open-pm-course/04-strategy-and-prioritisation/4-1-strategy/4-1-4-narrative-and-system-map/) **Project**
 
 ### 4.2 Goals and roadmaps
 
-- [4.2.1 Goals and OKRs](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-1-goals-and-okrs/) *draft*
-- [4.2.2 Roadmaps](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-2-roadmaps/) *draft*
-- [4.2.3 Prioritisation frameworks](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-3-prioritisation-frameworks/) *draft*
-- [4.2.4 Planning rituals](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-4-planning-rituals/) *draft*
-- [4.2.5 Strategy pack](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-5-strategy-pack/) **Project** *draft*
+- [4.2.1 Goals and OKRs](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-1-goals-and-okrs/)
+- [4.2.2 Roadmaps](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-2-roadmaps/)
+- [4.2.3 Prioritisation frameworks](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-3-prioritisation-frameworks/)
+- [4.2.4 Planning rituals](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-4-planning-rituals/)
+- [4.2.5 Strategy pack](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-5-strategy-pack/) **Project**
 
 ## 5 · Definition and delivery
 
