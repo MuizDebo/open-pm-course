@@ -2,10 +2,10 @@
 /*
   Override of Starlight's PageFrame.
 
-  Change from the default: the course sidebar is a drawer at every screen size, closed by
-  default, opened with the menu button at the top left. Starlight's default pins it open on
-  wide screens; this course keeps the reading pane uncluttered and lets the learner open the
-  course outline when they want it.
+  The course outline lives in a left column that is always reserved on wide screens, so
+  opening or closing it never moves the lesson text or the "On this page" list. It starts
+  closed, the learner opens it with the button at the start of the header, and the choice is
+  remembered between pages. On narrow screens it is an overlay drawer instead.
 */
 import MenuToggle from './MenuToggle.astro';
 
@@ -19,15 +19,41 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 			<nav class="sidebar print:hidden" aria-label={Astro.locals.t('sidebarNav.accessibleLabel')}>
 				<MenuToggle />
 				<script>
-					// The drawer uses the popover API so it opens, closes and light-dismisses without
-					// JavaScript. This enhancement traps focus while it covers the page on narrow screens.
+					const STORAGE_KEY = 'opm-sidebar';
+					const wide = matchMedia('(min-width: 50em)');
+
 					class CourseSidebarPane extends HTMLElement {
 						constructor() {
 							super();
+							// Wide screens: a pinned panel that stays until toggled. Narrow: a light-dismiss drawer.
+							const setMode = () => {
+								this.popover = wide.matches ? 'manual' : 'auto';
+							};
+							setMode();
+							wide.addEventListener('change', setMode);
+
 							this.addEventListener('toggle', (event) => {
 								const open = (event as ToggleEvent).newState === 'open';
-								if (!matchMedia('(min-width: 50em)').matches) this.trapFocus(open);
+								if (wide.matches) {
+									try {
+										localStorage.setItem(STORAGE_KEY, open ? 'open' : 'closed');
+									} catch {}
+								} else {
+									this.trapFocus(open);
+								}
 							});
+						}
+						connectedCallback() {
+							// Restore the learner's last choice on wide screens. Default is closed.
+							let remembered = 'closed';
+							try {
+								remembered = localStorage.getItem(STORAGE_KEY) || 'closed';
+							} catch {}
+							if (wide.matches && remembered === 'open' && !this.matches(':popover-open')) {
+								try {
+									this.showPopover();
+								} catch {}
+							}
 						}
 						trapFocus(shouldTrap: boolean) {
 							document.querySelectorAll<HTMLElement>('.main-frame, .sl-skip-link').forEach((el) => {
@@ -98,29 +124,20 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 
 		.main-frame {
 			padding-top: calc(var(--sl-nav-height) + var(--sl-mobile-toc-height));
-			padding-inline-start: 0;
+			padding-inline-start: var(--sl-content-inline-start);
 		}
 
 		@media (min-width: 50rem) {
+			/* The left column is reserved whether or not the panel is open, so content never moves. */
 			.sidebar-pane {
 				width: var(--sl-sidebar-width);
 				background-color: var(--sl-color-bg-sidebar);
 				border-inline-end: 1px solid var(--sl-color-hairline-shade);
-				box-shadow: var(--sl-shadow-lg);
 			}
 			.sidebar-content::after {
 				content: '';
 				padding-bottom: 1px;
 			}
-		}
-	}
-</style>
-
-<style is:global>
-	@layer starlight.core {
-		/* Content no longer reserves space for a pinned sidebar. */
-		:root[data-has-sidebar] {
-			--sl-content-inline-start: 0rem;
 		}
 	}
 </style>

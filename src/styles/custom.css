@@ -1,35 +1,121 @@
-/* Course-specific styling on top of Starlight's defaults. Keep it light. */
+/*
+  Course theme on top of Starlight's defaults.
 
+  Brand palette (from the author):
+    navy        #0D0630   page background in dark mode, headings and text in light mode
+    coral       #DD614A   accent: buttons, links, current item
+    pale yellow #FFF689   highlights: badges, project markers, caution notes
+    light blue  #BBDEF0   soft surfaces: panels, sidebar, light-mode tints
+
+  Coral on white only reaches 3.6:1, so light-mode link text uses a darker coral (#C04A33,
+  4.9:1). Navy text on coral (5.4:1) is used for buttons in both modes.
+*/
+
+/* ---------- dark mode (default) ---------- */
 :root {
-  --sl-color-accent-low: #1d2a3a;
-  --sl-color-accent: #2f6fed;
-  --sl-color-accent-high: #c7dbff;
+  --sl-color-white: #f7fbfe;
+  --sl-color-gray-1: #ebeaf4;
+  --sl-color-gray-2: #d6d4e6;
+  --sl-color-gray-3: #9a96b8;
+  --sl-color-gray-4: #4f4a7c;
+  --sl-color-gray-5: #2a2357;
+  --sl-color-gray-6: #171047;
+  --sl-color-gray-7: #120b3d;
+  --sl-color-black: #0d0630;
+
+  --sl-color-accent-low: #4a1f17;
+  --sl-color-accent: #dd614a;
+  --sl-color-accent-high: #f3a693;
+
+  --sl-color-orange-low: #3d3a12;
+  --sl-color-orange: #fff689;
+  --sl-color-orange-high: #fff9b8;
+
+  --sl-color-bg-nav: #120b3d;
+  --sl-color-bg-sidebar: #120b3d;
+  --sl-color-hairline-shade: #06031c;
+
+  --opm-highlight: #fff689;
+  --opm-sky: #bbdef0;
 }
 
-:root[data-theme='light'] {
-  --sl-color-accent-low: #dce8ff;
-  --sl-color-accent: #1f5fd6;
-  --sl-color-accent-high: #0f2f6e;
+/* ---------- light mode ---------- */
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+  --sl-color-white: #0d0630;
+  --sl-color-gray-1: #171a38;
+  --sl-color-gray-2: #262a45;
+  --sl-color-gray-3: #4a5466;
+  --sl-color-gray-4: #6b7a8a;
+  --sl-color-gray-5: #b0c2ce;
+  --sl-color-gray-6: #d4e7f2;
+  --sl-color-gray-7: #eef6fb;
+  --sl-color-black: #fbfcfe;
+
+  --sl-color-accent-high: #8e3522;
+  --sl-color-accent: #c04a33;
+  --sl-color-accent-low: #fbe4de;
+
+  --sl-color-orange-high: #5c5300;
+  --sl-color-orange: #e6d44a;
+  --sl-color-orange-low: #fff9c2;
+
+  --sl-color-bg-nav: #eef6fb;
+  --sl-color-bg-sidebar: #e6f1f8;
+  --sl-color-hairline-shade: #d4e7f2;
+
+  --opm-highlight: #fff689;
+  --opm-sky: #bbdef0;
 }
 
-/* Assignment panel: the boxed, numbered list at the end of every lesson and project. */
-.sl-markdown-content .assignment {
-  border: 1px solid var(--sl-color-gray-5);
-  border-left: 4px solid var(--sl-color-accent);
-  border-radius: 0.5rem;
-  padding: 1rem 1.25rem;
-  background: var(--sl-color-gray-7, var(--sl-color-black));
+/* ---------- buttons: coral with navy text, both modes ---------- */
+.sl-link-button.primary {
+  background: #dd614a;
+  color: #0d0630;
+  border-color: #dd614a;
+}
+.sl-link-button.primary:hover,
+.sl-link-button.primary:focus-visible {
+  background: #e97b66;
+  border-color: #e97b66;
 }
 
-/* The course sidebar is a drawer (see src/components/PageFrame.astro), so content never
-   reserves space for it. Kept here as well as in the component in case layer order changes. */
-:root[data-has-sidebar] {
-  --sl-content-inline-start: 0rem;
+/* ---------- badges and markers in pale yellow ---------- */
+.sl-badge.caution {
+  background: #fff689;
+  border-color: #fff689;
+  color: #0d0630;
 }
 
 /* Projects in the sidebar get a small marker so they stand out from lessons. */
 .sidebar-content a[data-type='project'] span:first-child::before {
   content: '◆ ';
   font-size: 0.7em;
-  color: var(--sl-color-accent-high);
+  color: var(--opm-highlight);
 }
+
+/* Small-caps course label in the drawer picks up the sky blue in dark mode. */
+.sidebar-content .course-label {
+  color: var(--opm-sky);
+}
+:root[data-theme='light'] .sidebar-content .course-label {
+  color: var(--sl-color-gray-3);
+}
+
+/* ---------- assignment panel ---------- */
+.sl-markdown-content .assignment {
+  border: 1px solid var(--sl-color-gray-5);
+  border-left: 4px solid var(--sl-color-accent);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--sl-color-gray-7);
+}
+
+/* Highlighted text, if a lesson uses <mark>. */
+.sl-markdown-content mark {
+  background: var(--opm-highlight);
+  color: #0d0630;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+}
+
