@@ -1,0 +1,314 @@
+---
+/*
+  Study planner. The learner picks the days, time and length of their weekly study blocks
+  and downloads an .ics file with a repeating event and a reminder. Works with Google
+  Calendar, Apple Calendar, Outlook and most phone calendars. Everything runs in the
+  browser; nothing is sent anywhere.
+*/
+---
+
+<form class="planner not-content" id="study-planner" aria-labelledby="planner-title">
+	<h3 id="planner-title">Put your study blocks in your calendar</h3>
+
+	<fieldset class="days">
+		<legend>Which days</legend>
+		<label><input type="checkbox" name="day" value="MO" /> Mon</label>
+		<label><input type="checkbox" name="day" value="TU" checked /> Tue</label>
+		<label><input type="checkbox" name="day" value="WE" /> Wed</label>
+		<label><input type="checkbox" name="day" value="TH" checked /> Thu</label>
+		<label><input type="checkbox" name="day" value="FR" /> Fri</label>
+		<label><input type="checkbox" name="day" value="SA" checked /> Sat</label>
+		<label><input type="checkbox" name="day" value="SU" /> Sun</label>
+	</fieldset>
+
+	<div class="grid">
+		<label>
+			<span>Start time</span>
+			<input type="time" name="time" value="19:00" required />
+		</label>
+		<label>
+			<span>Length (hours)</span>
+			<input type="number" name="hours" min="0.5" max="8" step="0.5" value="2.5" required />
+		</label>
+		<label>
+			<span>First week starts</span>
+			<input type="date" name="start" required />
+		</label>
+		<label>
+			<span>Number of weeks</span>
+			<input type="number" name="weeks" min="1" max="104" value="30" required />
+		</label>
+		<label>
+			<span>Reminder</span>
+			<select name="alarm">
+				<option value="0">None</option>
+				<option value="15">15 minutes before</option>
+				<option value="30" selected>30 minutes before</option>
+				<option value="60">1 hour before</option>
+				<option value="1440">The day before</option>
+			</select>
+		</label>
+	</div>
+
+	<p class="summary" data-summary aria-live="polite"></p>
+
+	<div class="actions">
+		<button type="submit">Download calendar file (.ics)</button>
+		<a class="secondary" data-google href="#" target="_blank" rel="noopener">Open in Google Calendar</a>
+	</div>
+
+	<p class="hint">
+		On a phone, open the downloaded file and your calendar app will offer to add it. On a
+		computer, import it into Google Calendar, Apple Calendar or Outlook. The reminder is
+		included in the file; Google Calendar's web import applies your default reminder
+		instead, so use the Google button there if you want the reminder exactly as chosen.
+	</p>
+</form>
+
+<script>
+	const form = document.getElementById('study-planner') as HTMLFormElement | null;
+
+	if (form) {
+		const summary = form.querySelector('[data-summary]') as HTMLElement;
+		const googleLink = form.querySelector('[data-google]') as HTMLAnchorElement;
+		const DAY_INDEX: Record<string, number> = { SU: 0, MO: 1, TU: 2, WE: 3, TH: 4, FR: 5, SA: 6 };
+		const TITLE = 'Open PM Course: study block';
+		const DESCRIPTION =
+			'Your weekly study block for the Open Product Management Course. ' +
+			'Pick up where you left off: https://muizdebo.github.io/open-pm-course/';
+
+		// Default the start date to next Monday.
+		const startInput = form.elements.namedItem('start') as HTMLInputElement;
+		if (!startInput.value) {
+			const d = new Date();
+			d.setDate(d.getDate() + ((8 - d.getDay()) % 7 || 7));
+			startInput.value = toInputDate(d);
+		}
+
+		function toInputDate(d: Date): string {
+			const p = (n: number) => String(n).padStart(2, '0');
+			return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+		}
+
+		function readPlan() {
+			const data = new FormData(form!);
+			const days = data.getAll('day') as string[];
+			const [hh, mm] = String(data.get('time') || '19:00').split(':').map(Number);
+			const hours = Number(data.get('hours')) || 2;
+			const weeks = Math.max(1, Math.round(Number(data.get('weeks')) || 1));
+			const alarm = Number(data.get('alarm')) || 0;
+			const [y, m, d] = String(data.get('start')).split('-').map(Number);
+			const start = new Date(y!, m! - 1, d!, hh, mm, 0, 0);
+			// Move to the first selected weekday on or after the chosen date.
+			const wanted = days.map((code) => DAY_INDEX[code]!);
+			const first = new Date(start);
+			for (let i = 0; i < 7 && wanted.length && !wanted.includes(first.getDay()); i++) {
+				first.setDate(first.getDate() + 1);
+			}
+			const end = new Date(first.getTime() + hours * 3600 * 1000);
+			const count = weeks * days.length;
+			// Date of the last session: walk forward from first.
+			let last = new Date(first);
+			let seen = 0;
+			for (let i = 0; i < weeks * 7 + 7 && seen < count; i++) {
+				const probe = new Date(first);
+				probe.setDate(first.getDate() + i);
+				if (wanted.includes(probe.getDay())) {
+					seen++;
+					last = probe;
+				}
+			}
+			return { days, hours, weeks, alarm, first, end, count, last };
+		}
+
+		function stamp(d: Date): string {
+			const p = (n: number) => String(n).padStart(2, '0');
+			return `${d.getFullYear()}${p(d.getMonth() + 1)}${p(d.getDate())}T${p(d.getHours())}${p(d.getMinutes())}00`;
+		}
+
+		function utcStamp(d: Date): string {
+			return d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+		}
+
+		function escapeText(s: string): string {
+			return s.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+		}
+
+		function buildIcs(plan: ReturnType<typeof readPlan>): string {
+			const lines = [
+				'BEGIN:VCALENDAR',
+				'VERSION:2.0',
+				'PRODID:-//Open PM Course//Study Planner//EN',
+				'CALSCALE:GREGORIAN',
+				'METHOD:PUBLISH',
+				'BEGIN:VEVENT',
+				`UID:opm-${Date.now()}@muizdebo.github.io`,
+				`DTSTAMP:${utcStamp(new Date())}`,
+				`DTSTART:${stamp(plan.first)}`,
+				`DTEND:${stamp(plan.end)}`,
+				`RRULE:FREQ=WEEKLY;BYDAY=${plan.days.join(',')};COUNT=${plan.count}`,
+				`SUMMARY:${escapeText(TITLE)}`,
+				`DESCRIPTION:${escapeText(DESCRIPTION)}`,
+				'URL:https://muizdebo.github.io/open-pm-course/',
+			];
+			if (plan.alarm > 0) {
+				lines.push(
+					'BEGIN:VALARM',
+					`TRIGGER:-PT${plan.alarm}M`,
+					'ACTION:DISPLAY',
+					`DESCRIPTION:${escapeText(TITLE)}`,
+					'END:VALARM',
+				);
+			}
+			lines.push('END:VEVENT', 'END:VCALENDAR');
+			// Fold lines longer than 75 octets, as the format requires.
+			return lines
+				.map((line) => {
+					const out: string[] = [];
+					while (line.length > 73) {
+						out.push(line.slice(0, 73));
+						line = ' ' + line.slice(73);
+					}
+					out.push(line);
+					return out.join('\r\n');
+				})
+				.join('\r\n') + '\r\n';
+		}
+
+		function googleUrl(plan: ReturnType<typeof readPlan>): string {
+			const params = new URLSearchParams({
+				action: 'TEMPLATE',
+				text: TITLE,
+				dates: `${stamp(plan.first)}/${stamp(plan.end)}`,
+				details: DESCRIPTION,
+				recur: `RRULE:FREQ=WEEKLY;BYDAY=${plan.days.join(',')};COUNT=${plan.count}`,
+			});
+			return `https://calendar.google.com/calendar/render?${params.toString()}`;
+		}
+
+		function refresh() {
+			const plan = readPlan();
+			if (!plan.days.length) {
+				summary.textContent = 'Pick at least one day.';
+				googleLink.removeAttribute('href');
+				return;
+			}
+			const fmt = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'long', year: 'numeric' });
+			const total = Math.round(plan.count * plan.hours);
+			summary.textContent =
+				`${plan.days.length} session${plan.days.length === 1 ? '' : 's'} a week, ` +
+				`${plan.hours} hour${plan.hours === 1 ? '' : 's'} each. ` +
+				`${plan.count} sessions and about ${total} hours in total, ` +
+				`starting ${fmt.format(plan.first)} and ending ${fmt.format(plan.last)}.`;
+			googleLink.href = googleUrl(plan);
+		}
+
+		form.addEventListener('input', refresh);
+		form.addEventListener('submit', (event) => {
+			event.preventDefault();
+			const plan = readPlan();
+			if (!plan.days.length) return refresh();
+			const blob = new Blob([buildIcs(plan)], { type: 'text/calendar;charset=utf-8' });
+			const url = URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = 'open-pm-course-study-plan.ics';
+			document.body.appendChild(a);
+			a.click();
+			a.remove();
+			setTimeout(() => URL.revokeObjectURL(url), 1000);
+		});
+		refresh();
+	}
+</script>
+
+<style>
+	.planner {
+		border: 1px solid var(--sl-color-gray-5);
+		border-left: 4px solid var(--sl-color-accent);
+		border-radius: 0.5rem;
+		padding: 1rem 1.25rem 1.25rem;
+		background: var(--sl-color-gray-7, var(--sl-color-black));
+		margin: 1.5rem 0;
+	}
+	.planner h3 {
+		margin: 0 0 0.75rem;
+		font-size: var(--sl-text-lg);
+	}
+	.days {
+		border: 0;
+		padding: 0;
+		margin: 0 0 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1rem;
+	}
+	.days legend {
+		font-weight: 600;
+		margin-bottom: 0.5rem;
+	}
+	.days label {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		cursor: pointer;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		gap: 0.75rem 1rem;
+	}
+	.grid label {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		font-size: var(--sl-text-sm);
+	}
+	.grid label span {
+		font-weight: 600;
+	}
+	.planner input,
+	.planner select {
+		font: inherit;
+		padding: 0.4rem 0.5rem;
+		border: 1px solid var(--sl-color-gray-4);
+		border-radius: 0.35rem;
+		background: var(--sl-color-black);
+		color: var(--sl-color-white);
+		min-width: 0;
+	}
+	.summary {
+		margin: 1rem 0 0.75rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+	}
+	.actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		align-items: center;
+	}
+	.planner button {
+		font: inherit;
+		font-weight: 600;
+		padding: 0.6rem 1rem;
+		border: 0;
+		border-radius: 999px;
+		background: var(--sl-color-text-accent);
+		color: var(--sl-color-text-invert);
+		cursor: pointer;
+	}
+	.planner button:hover,
+	.planner button:focus {
+		filter: brightness(1.1);
+	}
+	.secondary {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-text-accent);
+	}
+	.hint {
+		margin: 1rem 0 0;
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+	}
+</style>

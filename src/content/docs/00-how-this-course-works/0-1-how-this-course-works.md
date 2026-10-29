@@ -88,7 +88,8 @@ The course is self-paced, which is a polite way of saying nobody will chase you.
 things make people finish:
 
 1. **A fixed weekly block.** Two or three sessions of three hours beat ten scattered
-   half-hours. Put it in your calendar before you start Course 1.
+   half-hours. Lesson 0.2 has a planner that puts the blocks in your calendar, with
+   reminders, in about a minute. Use it before you start Course 1.
 2. **Public commitment.** Introduce yourself in Discussions and say when you plan to finish
    each course. Other learners are the accountability structure.
 3. **Finishing projects, not lessons.** Count progress by artifacts produced. The sidebar

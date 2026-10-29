@@ -1,0 +1,96 @@
+---
+/*
+  Override of Starlight's Sidebar.
+
+  Shows only the course the learner is currently in: its sections, lessons and projects.
+  A link at the top leads to the full course map. On pages outside any course (the map
+  itself, for example) it lists the courses instead.
+*/
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.astro';
+
+type Entry = (typeof Astro.locals.starlightRoute.sidebar)[number];
+
+const { sidebar, id } = Astro.locals.starlightRoute;
+
+const hasCurrent = (entry: Entry): boolean =>
+	entry.type === 'link' ? entry.isCurrent : entry.entries.some(hasCurrent);
+
+const firstHref = (entry: Entry): string =>
+	entry.type === 'link' ? entry.href : entry.entries.length ? firstHref(entry.entries[0]!) : '#';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const mapHref = `${base}/map/`;
+const onMap = id === 'map';
+
+const current = sidebar.find((entry) => entry.type === 'group' && hasCurrent(entry));
+const courseLinks: Entry[] = sidebar
+	.filter((entry) => entry.type === 'group')
+	.map((group) => ({
+		type: 'link',
+		label: group.label,
+		href: firstHref(group),
+		isCurrent: false,
+		badge: undefined,
+		attrs: {},
+	}));
+---
+
+{
+	current ? (
+		<>
+			<a class="map-link" href={mapHref}>
+				<span aria-hidden="true">←</span> All courses
+			</a>
+			<p class="course-label">{current.label}</p>
+			<SidebarPersister>
+				<SidebarSublist sublist={current.type === 'group' ? current.entries : []} />
+			</SidebarPersister>
+		</>
+	) : (
+		<>
+			<p class="course-label">Courses</p>
+			<SidebarPersister>
+				<SidebarSublist sublist={courseLinks} />
+			</SidebarPersister>
+			<a class="map-link" href={mapHref} aria-current={onMap ? 'page' : undefined}>
+				Full course map
+			</a>
+		</>
+	)
+}
+
+<div class="md:sl-hidden">
+	<MobileMenuFooter />
+</div>
+
+<style>
+	.map-link {
+		display: inline-block;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+		text-decoration: none;
+		padding: 0.3rem 0.5rem;
+		border-radius: 0.25rem;
+	}
+	.map-link:hover,
+	.map-link:focus {
+		color: var(--sl-color-white);
+		background-color: var(--sl-color-gray-6);
+	}
+	.map-link[aria-current='page'] {
+		color: var(--sl-color-text-invert);
+		background-color: var(--sl-color-text-accent);
+		font-weight: 600;
+	}
+	.course-label {
+		margin: 0;
+		padding: 0 0.5rem;
+		font-size: var(--sl-text-xs);
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--sl-color-gray-3);
+	}
+</style>

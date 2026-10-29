@@ -21,6 +21,11 @@ export default defineConfig({
       lastUpdated: true,
       pagination: true,
       sidebar,
+      components: {
+        // Sidebar is a closed-by-default drawer showing only the current course.
+        PageFrame: './src/components/PageFrame.astro',
+        Sidebar: './src/components/Sidebar.astro',
+      },
       customCss: ['./src/styles/custom.css'],
     }),
   ],

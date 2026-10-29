@@ -30,45 +30,25 @@ export default [
         "items": [
           {
             "label": "1.1.1 What a product manager actually does",
-            "slug": "01-foundations/1-1-what-product-management-is/1-1-1-what-a-product-manager-actually-does",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-1-what-product-management-is/1-1-1-what-a-product-manager-actually-does"
           },
           {
             "label": "1.1.2 A short history of the role",
-            "slug": "01-foundations/1-1-what-product-management-is/1-1-2-a-short-history-of-the-role",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-1-what-product-management-is/1-1-2-a-short-history-of-the-role"
           },
           {
             "label": "1.1.3 Flavours of PM",
-            "slug": "01-foundations/1-1-what-product-management-is/1-1-3-flavours-of-pm",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-1-what-product-management-is/1-1-3-flavours-of-pm"
           },
           {
             "label": "1.1.4 Is it really for you?",
-            "slug": "01-foundations/1-1-what-product-management-is/1-1-4-is-it-really-for-you",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-1-what-product-management-is/1-1-4-is-it-really-for-you"
           },
           {
             "label": "1.1.5 Role audit",
             "slug": "01-foundations/1-1-what-product-management-is/1-1-5-role-audit",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -79,37 +59,21 @@ export default [
         "items": [
           {
             "label": "1.2.1 From problem to outcome",
-            "slug": "01-foundations/1-2-the-product-lifecycle/1-2-1-from-problem-to-outcome",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-2-the-product-lifecycle/1-2-1-from-problem-to-outcome"
           },
           {
             "label": "1.2.2 Product, project and program management",
-            "slug": "01-foundations/1-2-the-product-lifecycle/1-2-2-product-project-and-program-management",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-2-the-product-lifecycle/1-2-2-product-project-and-program-management"
           },
           {
             "label": "1.2.3 How products make money",
-            "slug": "01-foundations/1-2-the-product-lifecycle/1-2-3-how-products-make-money",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-2-the-product-lifecycle/1-2-3-how-products-make-money"
           },
           {
             "label": "1.2.4 Lifecycle teardown",
             "slug": "01-foundations/1-2-the-product-lifecycle/1-2-4-lifecycle-teardown",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]

@@ -20,3 +20,16 @@
   padding: 1rem 1.25rem;
   background: var(--sl-color-gray-7, var(--sl-color-black));
 }
+
+/* The course sidebar is a drawer (see src/components/PageFrame.astro), so content never
+   reserves space for it. Kept here as well as in the component in case layer order changes. */
+:root[data-has-sidebar] {
+  --sl-content-inline-start: 0rem;
+}
+
+/* Projects in the sidebar get a small marker so they stand out from lessons. */
+.sidebar-content a[data-type='project'] span:first-child::before {
+  content: '◆ ';
+  font-size: 0.7em;
+  color: var(--sl-color-accent-high);
+}
