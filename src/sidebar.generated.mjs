@@ -114,45 +114,25 @@ export default [
         "items": [
           {
             "label": "2.1.1 Owning outcomes you do not control",
-            "slug": "02-the-pm-mind/2-1-accountability/2-1-1-owning-outcomes-you-do-not-control",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-1-accountability/2-1-1-owning-outcomes-you-do-not-control"
           },
           {
             "label": "2.1.2 Accountability versus blame",
-            "slug": "02-the-pm-mind/2-1-accountability/2-1-2-accountability-versus-blame",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-1-accountability/2-1-2-accountability-versus-blame"
           },
           {
             "label": "2.1.3 Saying no",
-            "slug": "02-the-pm-mind/2-1-accountability/2-1-3-saying-no",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-1-accountability/2-1-3-saying-no"
           },
           {
             "label": "2.1.4 When you are wrong",
-            "slug": "02-the-pm-mind/2-1-accountability/2-1-4-when-you-are-wrong",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-1-accountability/2-1-4-when-you-are-wrong"
           },
           {
             "label": "2.1.5 Decision journal",
             "slug": "02-the-pm-mind/2-1-accountability/2-1-5-decision-journal",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -163,35 +143,19 @@ export default [
         "items": [
           {
             "label": "2.2.1 Decision traps",
-            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-1-decision-traps",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-1-decision-traps"
           },
           {
             "label": "2.2.2 Cognitive bias for PMs",
-            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-2-cognitive-bias-for-pms",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-2-cognitive-bias-for-pms"
           },
           {
             "label": "2.2.3 The art of waiting",
-            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-3-the-art-of-waiting",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-3-the-art-of-waiting"
           },
           {
             "label": "2.2.4 Judgement and taste",
-            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-4-judgement-and-taste",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-4-judgement-and-taste"
           }
         ]
       },
@@ -201,45 +165,25 @@ export default [
         "items": [
           {
             "label": "2.3.1 Writing is the job",
-            "slug": "02-the-pm-mind/2-3-communication/2-3-1-writing-is-the-job",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-3-communication/2-3-1-writing-is-the-job"
           },
           {
             "label": "2.3.2 Running meetings people do not hate",
-            "slug": "02-the-pm-mind/2-3-communication/2-3-2-running-meetings-people-do-not-hate",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-3-communication/2-3-2-running-meetings-people-do-not-hate"
           },
           {
             "label": "2.3.3 Giving and receiving feedback",
-            "slug": "02-the-pm-mind/2-3-communication/2-3-3-giving-and-receiving-feedback",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-3-communication/2-3-3-giving-and-receiving-feedback"
           },
           {
             "label": "2.3.4 Conflict",
-            "slug": "02-the-pm-mind/2-3-communication/2-3-4-conflict",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-3-communication/2-3-4-conflict"
           },
           {
             "label": "2.3.5 The hard memo",
             "slug": "02-the-pm-mind/2-3-communication/2-3-5-the-hard-memo",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -250,19 +194,11 @@ export default [
         "items": [
           {
             "label": "2.4.1 Imposter syndrome and the PM",
-            "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-1-imposter-syndrome-and-the-pm",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-1-imposter-syndrome-and-the-pm"
           },
           {
             "label": "2.4.2 Burnout, context switching and the always-on trap",
-            "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-2-burnout-context-switching-and-the-always-on-trap",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-2-burnout-context-switching-and-the-always-on-trap"
           },
           {
             "label": "2.4.3 Lessons from the trenches",
@@ -274,21 +210,13 @@ export default [
           },
           {
             "label": "2.4.4 Ethics and the PM",
-            "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-4-ethics-and-the-pm",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-4-ethics-and-the-pm"
           },
           {
             "label": "2.4.5 Letter to your past self",
             "slug": "02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-5-letter-to-your-past-self",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]

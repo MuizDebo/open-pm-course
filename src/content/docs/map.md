@@ -45,34 +45,34 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 2.1 Accountability
 
-- [2.1.1 Owning outcomes you do not control](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-1-owning-outcomes-you-do-not-control/) *draft*
-- [2.1.2 Accountability versus blame](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-2-accountability-versus-blame/) *draft*
-- [2.1.3 Saying no](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-3-saying-no/) *draft*
-- [2.1.4 When you are wrong](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-4-when-you-are-wrong/) *draft*
-- [2.1.5 Decision journal](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-5-decision-journal/) **Project** *draft*
+- [2.1.1 Owning outcomes you do not control](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-1-owning-outcomes-you-do-not-control/)
+- [2.1.2 Accountability versus blame](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-2-accountability-versus-blame/)
+- [2.1.3 Saying no](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-3-saying-no/)
+- [2.1.4 When you are wrong](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-4-when-you-are-wrong/)
+- [2.1.5 Decision journal](/open-pm-course/02-the-pm-mind/2-1-accountability/2-1-5-decision-journal/) **Project**
 
 ### 2.2 Thinking under uncertainty
 
-- [2.2.1 Decision traps](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-1-decision-traps/) *draft*
-- [2.2.2 Cognitive bias for PMs](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-2-cognitive-bias-for-pms/) *draft*
-- [2.2.3 The art of waiting](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-3-the-art-of-waiting/) *draft*
-- [2.2.4 Judgement and taste](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-4-judgement-and-taste/) *draft*
+- [2.2.1 Decision traps](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-1-decision-traps/)
+- [2.2.2 Cognitive bias for PMs](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-2-cognitive-bias-for-pms/)
+- [2.2.3 The art of waiting](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-3-the-art-of-waiting/)
+- [2.2.4 Judgement and taste](/open-pm-course/02-the-pm-mind/2-2-thinking-under-uncertainty/2-2-4-judgement-and-taste/)
 
 ### 2.3 Communication
 
-- [2.3.1 Writing is the job](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-1-writing-is-the-job/) *draft*
-- [2.3.2 Running meetings people do not hate](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-2-running-meetings-people-do-not-hate/) *draft*
-- [2.3.3 Giving and receiving feedback](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-3-giving-and-receiving-feedback/) *draft*
-- [2.3.4 Conflict](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-4-conflict/) *draft*
-- [2.3.5 The hard memo](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-5-the-hard-memo/) **Project** *draft*
+- [2.3.1 Writing is the job](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-1-writing-is-the-job/)
+- [2.3.2 Running meetings people do not hate](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-2-running-meetings-people-do-not-hate/)
+- [2.3.3 Giving and receiving feedback](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-3-giving-and-receiving-feedback/)
+- [2.3.4 Conflict](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-4-conflict/)
+- [2.3.5 The hard memo](/open-pm-course/02-the-pm-mind/2-3-communication/2-3-5-the-hard-memo/) **Project**
 
 ### 2.4 The things nobody tells you
 
-- [2.4.1 Imposter syndrome and the PM](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-1-imposter-syndrome-and-the-pm/) *draft*
-- [2.4.2 Burnout, context switching and the always-on trap](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-2-burnout-context-switching-and-the-always-on-trap/) *draft*
+- [2.4.1 Imposter syndrome and the PM](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-1-imposter-syndrome-and-the-pm/)
+- [2.4.2 Burnout, context switching and the always-on trap](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-2-burnout-context-switching-and-the-always-on-trap/)
 - [2.4.3 Lessons from the trenches](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-3-lessons-from-the-trenches/) *draft*
-- [2.4.4 Ethics and the PM](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-4-ethics-and-the-pm/) *draft*
-- [2.4.5 Letter to your past self](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-5-letter-to-your-past-self/) **Project** *draft*
+- [2.4.4 Ethics and the PM](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-4-ethics-and-the-pm/)
+- [2.4.5 Letter to your past self](/open-pm-course/02-the-pm-mind/2-4-the-things-nobody-tells-you/2-4-5-letter-to-your-past-self/) **Project**
 
 ## 3 · Discovery and research
 
