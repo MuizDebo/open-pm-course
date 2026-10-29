@@ -710,35 +710,19 @@ export default [
         "items": [
           {
             "label": "8.1.1 PM career ladders",
-            "slug": "08-career/8-1-the-landscape/8-1-1-pm-career-ladders",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-1-the-landscape/8-1-1-pm-career-ladders"
           },
           {
             "label": "8.1.2 Company types",
-            "slug": "08-career/8-1-the-landscape/8-1-2-company-types",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-1-the-landscape/8-1-2-company-types"
           },
           {
             "label": "8.1.3 Transitioning in",
-            "slug": "08-career/8-1-the-landscape/8-1-3-transitioning-in",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-1-the-landscape/8-1-3-transitioning-in"
           },
           {
             "label": "8.1.4 PM in emerging markets",
-            "slug": "08-career/8-1-the-landscape/8-1-4-pm-in-emerging-markets",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-1-the-landscape/8-1-4-pm-in-emerging-markets"
           }
         ]
       },
@@ -748,37 +732,21 @@ export default [
         "items": [
           {
             "label": "8.2.1 Resume and portfolio",
-            "slug": "08-career/8-2-getting-found/8-2-1-resume-and-portfolio",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-2-getting-found/8-2-1-resume-and-portfolio"
           },
           {
             "label": "8.2.2 Networking without being awful",
-            "slug": "08-career/8-2-getting-found/8-2-2-networking-without-being-awful",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-2-getting-found/8-2-2-networking-without-being-awful"
           },
           {
             "label": "8.2.3 Where the jobs are",
-            "slug": "08-career/8-2-getting-found/8-2-3-where-the-jobs-are",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-2-getting-found/8-2-3-where-the-jobs-are"
           },
           {
             "label": "8.2.4 Portfolio",
             "slug": "08-career/8-2-getting-found/8-2-4-portfolio",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -789,69 +757,37 @@ export default [
         "items": [
           {
             "label": "8.3.1 How PM interviews work",
-            "slug": "08-career/8-3-interviews/8-3-1-how-pm-interviews-work",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-1-how-pm-interviews-work"
           },
           {
             "label": "8.3.2 Product sense and design questions",
-            "slug": "08-career/8-3-interviews/8-3-2-product-sense-and-design-questions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-2-product-sense-and-design-questions"
           },
           {
             "label": "8.3.3 Execution, metrics and estimation questions",
-            "slug": "08-career/8-3-interviews/8-3-3-execution-metrics-and-estimation-questions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-3-execution-metrics-and-estimation-questions"
           },
           {
             "label": "8.3.4 Strategy and business questions",
-            "slug": "08-career/8-3-interviews/8-3-4-strategy-and-business-questions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-4-strategy-and-business-questions"
           },
           {
             "label": "8.3.5 Behavioural questions",
-            "slug": "08-career/8-3-interviews/8-3-5-behavioural-questions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-5-behavioural-questions"
           },
           {
             "label": "8.3.6 Technical questions",
-            "slug": "08-career/8-3-interviews/8-3-6-technical-questions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-6-technical-questions"
           },
           {
             "label": "8.3.7 Offers and negotiation",
-            "slug": "08-career/8-3-interviews/8-3-7-offers-and-negotiation",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "08-career/8-3-interviews/8-3-7-offers-and-negotiation"
           },
           {
             "label": "8.3.8 Three mock interviews",
             "slug": "08-career/8-3-interviews/8-3-8-three-mock-interviews",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]

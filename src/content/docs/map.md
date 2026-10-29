@@ -215,28 +215,28 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 8.1 The landscape
 
-- [8.1.1 PM career ladders](/open-pm-course/08-career/8-1-the-landscape/8-1-1-pm-career-ladders/) *draft*
-- [8.1.2 Company types](/open-pm-course/08-career/8-1-the-landscape/8-1-2-company-types/) *draft*
-- [8.1.3 Transitioning in](/open-pm-course/08-career/8-1-the-landscape/8-1-3-transitioning-in/) *draft*
-- [8.1.4 PM in emerging markets](/open-pm-course/08-career/8-1-the-landscape/8-1-4-pm-in-emerging-markets/) *draft*
+- [8.1.1 PM career ladders](/open-pm-course/08-career/8-1-the-landscape/8-1-1-pm-career-ladders/)
+- [8.1.2 Company types](/open-pm-course/08-career/8-1-the-landscape/8-1-2-company-types/)
+- [8.1.3 Transitioning in](/open-pm-course/08-career/8-1-the-landscape/8-1-3-transitioning-in/)
+- [8.1.4 PM in emerging markets](/open-pm-course/08-career/8-1-the-landscape/8-1-4-pm-in-emerging-markets/)
 
 ### 8.2 Getting found
 
-- [8.2.1 Resume and portfolio](/open-pm-course/08-career/8-2-getting-found/8-2-1-resume-and-portfolio/) *draft*
-- [8.2.2 Networking without being awful](/open-pm-course/08-career/8-2-getting-found/8-2-2-networking-without-being-awful/) *draft*
-- [8.2.3 Where the jobs are](/open-pm-course/08-career/8-2-getting-found/8-2-3-where-the-jobs-are/) *draft*
-- [8.2.4 Portfolio](/open-pm-course/08-career/8-2-getting-found/8-2-4-portfolio/) **Project** *draft*
+- [8.2.1 Resume and portfolio](/open-pm-course/08-career/8-2-getting-found/8-2-1-resume-and-portfolio/)
+- [8.2.2 Networking without being awful](/open-pm-course/08-career/8-2-getting-found/8-2-2-networking-without-being-awful/)
+- [8.2.3 Where the jobs are](/open-pm-course/08-career/8-2-getting-found/8-2-3-where-the-jobs-are/)
+- [8.2.4 Portfolio](/open-pm-course/08-career/8-2-getting-found/8-2-4-portfolio/) **Project**
 
 ### 8.3 Interviews
 
-- [8.3.1 How PM interviews work](/open-pm-course/08-career/8-3-interviews/8-3-1-how-pm-interviews-work/) *draft*
-- [8.3.2 Product sense and design questions](/open-pm-course/08-career/8-3-interviews/8-3-2-product-sense-and-design-questions/) *draft*
-- [8.3.3 Execution, metrics and estimation questions](/open-pm-course/08-career/8-3-interviews/8-3-3-execution-metrics-and-estimation-questions/) *draft*
-- [8.3.4 Strategy and business questions](/open-pm-course/08-career/8-3-interviews/8-3-4-strategy-and-business-questions/) *draft*
-- [8.3.5 Behavioural questions](/open-pm-course/08-career/8-3-interviews/8-3-5-behavioural-questions/) *draft*
-- [8.3.6 Technical questions](/open-pm-course/08-career/8-3-interviews/8-3-6-technical-questions/) *draft*
-- [8.3.7 Offers and negotiation](/open-pm-course/08-career/8-3-interviews/8-3-7-offers-and-negotiation/) *draft*
-- [8.3.8 Three mock interviews](/open-pm-course/08-career/8-3-interviews/8-3-8-three-mock-interviews/) **Project** *draft*
+- [8.3.1 How PM interviews work](/open-pm-course/08-career/8-3-interviews/8-3-1-how-pm-interviews-work/)
+- [8.3.2 Product sense and design questions](/open-pm-course/08-career/8-3-interviews/8-3-2-product-sense-and-design-questions/)
+- [8.3.3 Execution, metrics and estimation questions](/open-pm-course/08-career/8-3-interviews/8-3-3-execution-metrics-and-estimation-questions/)
+- [8.3.4 Strategy and business questions](/open-pm-course/08-career/8-3-interviews/8-3-4-strategy-and-business-questions/)
+- [8.3.5 Behavioural questions](/open-pm-course/08-career/8-3-interviews/8-3-5-behavioural-questions/)
+- [8.3.6 Technical questions](/open-pm-course/08-career/8-3-interviews/8-3-6-technical-questions/)
+- [8.3.7 Offers and negotiation](/open-pm-course/08-career/8-3-interviews/8-3-7-offers-and-negotiation/)
+- [8.3.8 Three mock interviews](/open-pm-course/08-career/8-3-interviews/8-3-8-three-mock-interviews/) **Project**
 
 ## 9 · Capstone
 

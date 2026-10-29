@@ -47,7 +47,7 @@ async function check(url) {
     }
     // Some hosts answer 403 to any automated request even though the page is fine in a browser.
     const botBlocked =
-      res.status === 403 && /(^|.)(medium.com|chatgpt.com|openai.com)$/.test(new URL(url).hostname);
+      res.status === 403 && /(^|.)(medium.com|chatgpt.com|openai.com|weworkremotely.com)$/.test(new URL(url).hostname);
     if (res.status >= 400 && !botBlocked) failures.push({ url, reason: `HTTP ${res.status}` });
   } catch (e) {
     failures.push({ url, reason: e.name === 'AbortError' ? 'timeout' : e.message });
