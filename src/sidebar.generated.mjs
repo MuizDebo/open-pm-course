@@ -84,37 +84,21 @@ export default [
         "items": [
           {
             "label": "1.3.1 Engineers, designers, data",
-            "slug": "01-foundations/1-3-the-people-around-you/1-3-1-engineers-designers-data",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-3-the-people-around-you/1-3-1-engineers-designers-data"
           },
           {
             "label": "1.3.2 Sales, marketing, support, legal, leadership",
-            "slug": "01-foundations/1-3-the-people-around-you/1-3-2-sales-marketing-support-legal-leadership",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-3-the-people-around-you/1-3-2-sales-marketing-support-legal-leadership"
           },
           {
             "label": "1.3.3 Influence without authority",
-            "slug": "01-foundations/1-3-the-people-around-you/1-3-3-influence-without-authority",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "01-foundations/1-3-the-people-around-you/1-3-3-influence-without-authority"
           },
           {
             "label": "1.3.4 Stakeholder map",
             "slug": "01-foundations/1-3-the-people-around-you/1-3-4-stakeholder-map",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]

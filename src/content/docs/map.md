@@ -36,10 +36,10 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 1.3 The people around you
 
-- [1.3.1 Engineers, designers, data](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-1-engineers-designers-data/) *draft*
-- [1.3.2 Sales, marketing, support, legal, leadership](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-2-sales-marketing-support-legal-leadership/) *draft*
-- [1.3.3 Influence without authority](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-3-influence-without-authority/) *draft*
-- [1.3.4 Stakeholder map](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-4-stakeholder-map/) **Project** *draft*
+- [1.3.1 Engineers, designers, data](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-1-engineers-designers-data/)
+- [1.3.2 Sales, marketing, support, legal, leadership](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-2-sales-marketing-support-legal-leadership/)
+- [1.3.3 Influence without authority](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-3-influence-without-authority/)
+- [1.3.4 Stakeholder map](/open-pm-course/01-foundations/1-3-the-people-around-you/1-3-4-stakeholder-map/) **Project**
 
 ## 2 · The PM mind
 
