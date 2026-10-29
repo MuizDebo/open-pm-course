@@ -26,7 +26,14 @@ export default defineConfig({
         PageFrame: './src/components/PageFrame.astro',
         Sidebar: './src/components/Sidebar.astro',
       },
-      customCss: ['./src/styles/custom.css'],
+      customCss: [
+        // Inter, self-hosted. Weights used by body, emphasis, headings and buttons.
+        '@fontsource/inter/400.css',
+        '@fontsource/inter/500.css',
+        '@fontsource/inter/600.css',
+        '@fontsource/inter/700.css',
+        './src/styles/custom.css',
+      ],
     }),
   ],
 });

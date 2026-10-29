@@ -119,3 +119,28 @@
   border-radius: 0.2em;
 }
 
+
+/* ---------- typography ---------- */
+/* Inter for everything, with the Helvetica family as fallback. Section headings sit at 20px
+   so they read as signposts, not shouts; the page title is a notch above them. Body is 16px. */
+:root {
+  --sl-font: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --sl-text-body: 1rem; /* 16px */
+  --sl-text-h1: 1.75rem; /* 28px on small screens */
+  --sl-text-h2: 1.25rem; /* 20px */
+  --sl-text-h3: 1.125rem; /* 18px */
+  --sl-text-h4: 1rem; /* 16px */
+  --sl-text-h5: 0.9375rem; /* 15px */
+}
+@media (min-width: 50rem) {
+  :root {
+    --sl-text-h1: 2.125rem; /* 34px, a fifth below the default */
+  }
+}
+
+/* A little more air above section headings now that they are smaller. */
+.sl-markdown-content h2:not(:where(.not-content *)) {
+  margin-top: 2.25em;
+  letter-spacing: -0.01em;
+}
