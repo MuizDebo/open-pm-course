@@ -129,8 +129,6 @@ non-disclosure agreement, sanitised or not.
 
 ## Additional resources
 
-- [The Odin Project's project submission conventions](https://www.theodinproject.com/lessons/foundations-how-this-course-will-work)
-  are the model for this course's. Their community has run this loop for a decade.
 - [Thanks for the feedback](https://en.wikipedia.org/wiki/Thanks_for_the_Feedback) by Douglas Stone
   and Sheila Heen. A book, so a long read. The best thing written on receiving feedback,
   which is a bigger part of the PM job than giving it.

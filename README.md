@@ -1,8 +1,7 @@
 # Open Product Management Course
 
-A free, open-source curriculum for becoming a product manager, including AI product
-management, modelled on the structure of The Odin Project. Read the lessons, do the projects,
-submit your work, learn in public.
+A free, open-source curriculum for becoming a product manager, from first principles to AI
+product management. Read the lessons, do the projects, submit your work, learn in public.
 
 **Site:** https://muizdebo.github.io/open-pm-course/
 
@@ -37,7 +36,7 @@ CONTRIBUTING.md          how to fix, add and propose lessons (to write)
 
 Every lesson uses the same headings, in order: Introduction, Lesson overview, content
 sections, Assignment, Additional resources. Every project uses Introduction, Assignment,
-Extra credit. This mirrors The Odin Project's layout, which is reused as a format only.
+Extra credit. The same shape on every page, so a learner always knows where the work is.
 
 ## Licence
 

@@ -1,7 +1,7 @@
 # Lesson layout and style guide
 
-Every lesson and project is one Markdown file under `src/content/docs/`. The layout mirrors
-The Odin Project's, so a learner who has used that site feels at home. The headings below are
+Every lesson and project is one Markdown file under `src/content/docs/`. The layout is the
+same on every page, so a learner always knows where the assignment is. The headings below are
 required, in this order, unless a line says otherwise.
 
 ## Frontmatter
@@ -79,6 +79,10 @@ Post a link to your artifact in this project's GitHub Discussions thread. Review
 - **Headings** start at `##`. The page title is the `#`.
 - **Asides** use Starlight syntax: `:::note`, `:::tip`, `:::caution`. Keep them rare.
 - **No images without alt text.** Store images under `src/assets/` and import them.
+- **Inspiration stays internal.** The course borrows its shape from other open courses. That
+  is for us to know, not for learners to read. Never name, link or compare to the courses or
+  sites this one is modelled on in learner-facing text, including the landing page and the
+  README. Reference a source for its content only, never as "the site we copied".
 
 ## Draft marker
 

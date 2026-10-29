@@ -1,8 +1,8 @@
 # Curriculum map
 
 This is the master outline for the Open Product Management Course. Every lesson and project
-below becomes one Markdown file under `src/content/docs/`. The structure follows The Odin
-Project: a path is made of courses, a course of sections, a section of lessons and projects.
+below becomes one Markdown file under `src/content/docs/`. A path is made of courses, a
+course of sections, a section of lessons and projects.
 
 **Lesson** = read, watch, think. Ends with an Assignment of 3 to 5 items.
 **Project** = produce an artifact. Submit a link in the matching GitHub Discussion.
@@ -23,7 +23,7 @@ Source keys used below (see `SOURCES.md` for licences):
 
 | # | Type | Title | Notes |
 |---|---|---|---|
-| 0.1 | Lesson | How this course works | Paths, lessons, projects, pacing, why it is open source. Modelled on TOP's intro lesson. `[OWN]` |
+| 0.1 | Lesson | How this course works | Paths, lessons, projects, pacing, why it is open source. `[OWN]` |
 | 0.2 | Lesson | What you need | A GitHub account, a writing tool (Google Docs, Notion or Markdown), a whiteboard tool (Excalidraw, FigJam free tier), a notebook. No paid tools. `[OWN]` |
 | 0.3 | Lesson | How to submit projects | Create a public repo or doc, post the link in the project's GitHub Discussion thread, review two other submissions. `[OWN]` |
 | 0.4 | Lesson | How to get help and contribute | Discussions, issues, "Edit this page", the style guide. `[OWN]` |

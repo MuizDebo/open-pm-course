@@ -15,7 +15,7 @@ export default defineConfig({
     starlight({
       title: 'Open PM Course',
       description:
-        'A free, open-source product management curriculum, including AI product management, modelled on The Odin Project.',
+        'A free, open-source product management curriculum, from first principles to AI product management.',
       social: [{ icon: 'github', label: 'GitHub', href: REPO_URL }],
       editLink: { baseUrl: `${REPO_URL}/edit/main/` },
       lastUpdated: true,

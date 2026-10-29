@@ -12,7 +12,7 @@
   --sl-color-accent-high: #0f2f6e;
 }
 
-/* Assignment panel, mirroring The Odin Project's lesson-content__panel. */
+/* Assignment panel: the boxed, numbered list at the end of every lesson and project. */
 .sl-markdown-content .assignment {
   border: 1px solid var(--sl-color-gray-5);
   border-left: 4px solid var(--sl-color-accent);

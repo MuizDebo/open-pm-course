@@ -5,8 +5,7 @@ description: "What this course is, who it is for, how it is shaped, and how to g
 
 ## Introduction
 
-This is a free, open-source course for becoming a product manager. It is built the way
-[The Odin Project](https://www.theodinproject.com/) teaches web development: a single path of
+This is a free, open-source course for becoming a product manager. It is a single path of
 lessons and projects, curated from the best material already on the web, with your own work
 done in public and reviewed by other learners.
 
@@ -113,9 +112,9 @@ anyone can copy, improve and redistribute it. That is deliberate.
 The reading lists are curated from the strongest open resources on GitHub, including
 [Open Product Management](https://github.com/ProductHired/open-product-management),
 [Awesome Product Management](https://github.com/dend/awesome-product-management) and
-[Awesome AI PM](https://github.com/aakashg/awesome-ai-pm). The structure and the project
-sequence are modelled on Cornell Tech's product management studio course. The writing in
-between is original and yours to improve.
+[Awesome AI PM](https://github.com/aakashg/awesome-ai-pm). Several projects adapt exercises
+from Cornell Tech's product management course. The writing in between is original and yours
+to improve.
 
 ## Assignment
 
@@ -125,10 +124,10 @@ between is original and yours to improve.
    Do not read the detail. Get a feel for the size and the order, and note the two or three
    projects that look most useful to you right now. Those are your motivation when the
    middle weeks drag.
-2. Read The Odin Project's own
-   [How this course will work](https://www.theodinproject.com/lessons/foundations-how-this-course-will-work)
-   lesson, ten minutes. This course borrows its model on purpose, and their explanation of
-   why reading alone does not work applies here word for word.
+2. Read James Clear's
+   [guide to deliberate practice](https://jamesclear.com/deliberate-practice-theory), ten
+   minutes. It explains why doing the thing with feedback beats reading about it, which is
+   the reason every course here ends in a project you submit for review.
 3. Watch Barbara Oakley's talk
    [Learning how to learn](https://www.youtube.com/watch?v=O96fE1E-rf8), eighteen minutes.
    Focused and diffuse modes, chunking and the illusion of competence explain why the
@@ -144,6 +143,3 @@ between is original and yours to improve.
 - [Learn in public](https://www.swyx.io/learn-in-public) by Shawn Wang. The short case for
   doing your learning where other people can see it, which is the whole submission model of
   this course.
-- [The Odin Project](https://www.theodinproject.com/) itself. If you have never used it,
-  spending twenty minutes there shows you exactly what this course is trying to be for
-  product management.

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "A free, open-source product management curriculum, including AI product management, modelled on The Odin Project.",
+  "description": "A free, open-source product management curriculum, from first principles to AI product management.",
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
