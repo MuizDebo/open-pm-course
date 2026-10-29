@@ -26,7 +26,6 @@ for (const t of targets) {
     const text = fs.readFileSync(file, 'utf8');
     for (const m of text.matchAll(/https?:\/\/[^\s)>"'\]]+/g)) {
       const url = m[0].replace(/[.,;:]+$/, '');
-      if (url.includes('CHANGE-ME')) continue;
       if (!links.has(url)) links.set(url, []);
       links.get(url).push(path.relative(root, file));
     }

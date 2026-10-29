@@ -13,7 +13,7 @@ your contributions under the same licence.
 Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 Attribution should read: "Open Product Management Course, CC BY-SA 4.0,
-https://github.com/CHANGE-ME/open-pm-course".
+https://github.com/MuizDebo/open-pm-course".
 
 Material from third-party sources keeps its own licence. `SOURCES.md` lists each source and
 what we are permitted to do with it. Externally linked articles, videos and podcasts are not
