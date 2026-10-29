@@ -375,37 +375,21 @@ export default [
         "items": [
           {
             "label": "5.1.1 Requirements",
-            "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-1-requirements",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-1-requirements"
           },
           {
             "label": "5.1.2 User stories, epics and acceptance criteria",
-            "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-2-user-stories-epics-and-acceptance-criteria",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-2-user-stories-epics-and-acceptance-criteria"
           },
           {
             "label": "5.1.3 Mockups and wireframes",
-            "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-3-mockups-and-wireframes",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-3-mockups-and-wireframes"
           },
           {
             "label": "5.1.4 The PRD",
             "slug": "05-definition-and-delivery/5-1-writing-it-down/5-1-4-the-prd",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -416,53 +400,29 @@ export default [
         "items": [
           {
             "label": "5.2.1 How software gets built",
-            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-1-how-software-gets-built",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-1-how-software-gets-built"
           },
           {
             "label": "5.2.2 Agile, Scrum, Kanban in practice",
-            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-2-agile-scrum-kanban-in-practice",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-2-agile-scrum-kanban-in-practice"
           },
           {
             "label": "5.2.3 Estimation and why it fails",
-            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-3-estimation-and-why-it-fails",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-3-estimation-and-why-it-fails"
           },
           {
             "label": "5.2.4 Bugs, technical debt and quality",
-            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-4-bugs-technical-debt-and-quality",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-4-bugs-technical-debt-and-quality"
           },
           {
             "label": "5.2.5 Breaking down work",
-            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-5-breaking-down-work",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-5-breaking-down-work"
           },
           {
             "label": "5.2.6 Sprint plan",
             "slug": "05-definition-and-delivery/5-2-working-with-engineering/5-2-6-sprint-plan",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -473,37 +433,21 @@ export default [
         "items": [
           {
             "label": "5.3.1 A PM's approach to design",
-            "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-1-a-pms-approach-to-design",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-1-a-pms-approach-to-design"
           },
           {
             "label": "5.3.2 Design disciplines and critique",
-            "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-2-design-disciplines-and-critique",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-2-design-disciplines-and-critique"
           },
           {
             "label": "5.3.3 Accessibility and inclusive design",
-            "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-3-accessibility-and-inclusive-design",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-3-accessibility-and-inclusive-design"
           },
           {
             "label": "5.3.4 Product loop",
             "slug": "05-definition-and-delivery/5-3-working-with-design/5-3-4-product-loop",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -514,37 +458,21 @@ export default [
         "items": [
           {
             "label": "5.4.1 Launch planning and go-to-market",
-            "slug": "05-definition-and-delivery/5-4-shipping/5-4-1-launch-planning-and-go-to-market",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-4-shipping/5-4-1-launch-planning-and-go-to-market"
           },
           {
             "label": "5.4.2 Retrospectives",
-            "slug": "05-definition-and-delivery/5-4-shipping/5-4-2-retrospectives",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-4-shipping/5-4-2-retrospectives"
           },
           {
             "label": "5.4.3 Pre-mortems and postmortems",
-            "slug": "05-definition-and-delivery/5-4-shipping/5-4-3-pre-mortems-and-postmortems",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "05-definition-and-delivery/5-4-shipping/5-4-3-pre-mortems-and-postmortems"
           },
           {
             "label": "5.4.4 Launch pack",
             "slug": "05-definition-and-delivery/5-4-shipping/5-4-4-launch-pack",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]

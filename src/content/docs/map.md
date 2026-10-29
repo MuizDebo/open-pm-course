@@ -119,33 +119,33 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 5.1 Writing it down
 
-- [5.1.1 Requirements](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-1-requirements/) *draft*
-- [5.1.2 User stories, epics and acceptance criteria](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-2-user-stories-epics-and-acceptance-criteria/) *draft*
-- [5.1.3 Mockups and wireframes](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-3-mockups-and-wireframes/) *draft*
-- [5.1.4 The PRD](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-4-the-prd/) **Project** *draft*
+- [5.1.1 Requirements](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-1-requirements/)
+- [5.1.2 User stories, epics and acceptance criteria](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-2-user-stories-epics-and-acceptance-criteria/)
+- [5.1.3 Mockups and wireframes](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-3-mockups-and-wireframes/)
+- [5.1.4 The PRD](/open-pm-course/05-definition-and-delivery/5-1-writing-it-down/5-1-4-the-prd/) **Project**
 
 ### 5.2 Working with engineering
 
-- [5.2.1 How software gets built](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-1-how-software-gets-built/) *draft*
-- [5.2.2 Agile, Scrum, Kanban in practice](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-2-agile-scrum-kanban-in-practice/) *draft*
-- [5.2.3 Estimation and why it fails](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-3-estimation-and-why-it-fails/) *draft*
-- [5.2.4 Bugs, technical debt and quality](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-4-bugs-technical-debt-and-quality/) *draft*
-- [5.2.5 Breaking down work](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-5-breaking-down-work/) *draft*
-- [5.2.6 Sprint plan](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-6-sprint-plan/) **Project** *draft*
+- [5.2.1 How software gets built](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-1-how-software-gets-built/)
+- [5.2.2 Agile, Scrum, Kanban in practice](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-2-agile-scrum-kanban-in-practice/)
+- [5.2.3 Estimation and why it fails](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-3-estimation-and-why-it-fails/)
+- [5.2.4 Bugs, technical debt and quality](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-4-bugs-technical-debt-and-quality/)
+- [5.2.5 Breaking down work](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-5-breaking-down-work/)
+- [5.2.6 Sprint plan](/open-pm-course/05-definition-and-delivery/5-2-working-with-engineering/5-2-6-sprint-plan/) **Project**
 
 ### 5.3 Working with design
 
-- [5.3.1 A PM's approach to design](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-1-a-pms-approach-to-design/) *draft*
-- [5.3.2 Design disciplines and critique](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-2-design-disciplines-and-critique/) *draft*
-- [5.3.3 Accessibility and inclusive design](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-3-accessibility-and-inclusive-design/) *draft*
-- [5.3.4 Product loop](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-4-product-loop/) **Project** *draft*
+- [5.3.1 A PM's approach to design](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-1-a-pms-approach-to-design/)
+- [5.3.2 Design disciplines and critique](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-2-design-disciplines-and-critique/)
+- [5.3.3 Accessibility and inclusive design](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-3-accessibility-and-inclusive-design/)
+- [5.3.4 Product loop](/open-pm-course/05-definition-and-delivery/5-3-working-with-design/5-3-4-product-loop/) **Project**
 
 ### 5.4 Shipping
 
-- [5.4.1 Launch planning and go-to-market](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-1-launch-planning-and-go-to-market/) *draft*
-- [5.4.2 Retrospectives](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-2-retrospectives/) *draft*
-- [5.4.3 Pre-mortems and postmortems](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-3-pre-mortems-and-postmortems/) *draft*
-- [5.4.4 Launch pack](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-4-launch-pack/) **Project** *draft*
+- [5.4.1 Launch planning and go-to-market](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-1-launch-planning-and-go-to-market/)
+- [5.4.2 Retrospectives](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-2-retrospectives/)
+- [5.4.3 Pre-mortems and postmortems](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-3-pre-mortems-and-postmortems/)
+- [5.4.4 Launch pack](/open-pm-course/05-definition-and-delivery/5-4-shipping/5-4-4-launch-pack/) **Project**
 
 ## 6 · Data and metrics
 
