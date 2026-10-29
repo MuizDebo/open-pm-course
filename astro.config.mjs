@@ -25,6 +25,9 @@ export default defineConfig({
         // Sidebar is a closed-by-default drawer showing only the current course.
         PageFrame: './src/components/PageFrame.astro',
         Sidebar: './src/components/Sidebar.astro',
+        // Light mode by default; Light and Dark only, no system-follow option.
+        ThemeProvider: './src/components/ThemeProvider.astro',
+        ThemeSelect: './src/components/ThemeSelect.astro',
       },
       customCss: [
         // Inter, self-hosted. Weights used by body, emphasis, headings and buttons.

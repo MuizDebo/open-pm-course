@@ -183,3 +183,13 @@
   font-weight: 600;
   color: var(--sl-color-white);
 }
+
+/* ---------- sidebar text: 14px throughout ---------- */
+.sidebar-content .large,
+.sidebar-content a,
+.sidebar-content summary {
+  font-size: var(--sl-text-sm);
+}
+.sidebar-content .top-level > li + li {
+  margin-top: 0.4rem;
+}
