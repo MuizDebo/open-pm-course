@@ -4,7 +4,9 @@ A free, open-source curriculum for becoming a product manager, including AI prod
 management, modelled on the structure of The Odin Project. Read the lessons, do the projects,
 submit your work, learn in public.
 
-**Status:** curriculum map drafted. No lessons written yet. See [CURRICULUM.md](CURRICULUM.md).
+**Site:** https://muizdebo.github.io/open-pm-course/
+
+**Status:** curriculum map drafted and site scaffolded. No lessons written yet. See [CURRICULUM.md](CURRICULUM.md).
 
 ## Settled decisions
 
@@ -15,7 +17,7 @@ submit your work, learn in public.
 | Content licence | CC BY-SA 4.0 | 2026-10-29 |
 | Code licence | MIT | 2026-10-29 |
 | Hosting | GitHub Pages (Vercel as fallback) | 2026-10-29 |
-| Repo home | Open: personal account or organisation | pending |
+| Repo home | github.com/MuizDebo/open-pm-course | 2026-10-29 |
 
 ## Layout (planned)
 
