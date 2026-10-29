@@ -78,25 +78,25 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 3.1 Framing the problem
 
-- [3.1.1 Problems before solutions](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-1-problems-before-solutions/) *draft*
-- [3.1.2 Jobs to be done](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-2-jobs-to-be-done/) *draft*
-- [3.1.3 Audiences, personas and the 1/9/90 rule](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-3-audiences-personas-and-the-1-9-90-rule/) *draft*
-- [3.1.4 Audience map](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-4-audience-map/) **Project** *draft*
+- [3.1.1 Problems before solutions](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-1-problems-before-solutions/)
+- [3.1.2 Jobs to be done](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-2-jobs-to-be-done/)
+- [3.1.3 Audiences, personas and the 1/9/90 rule](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-3-audiences-personas-and-the-1-9-90-rule/)
+- [3.1.4 Audience map](/open-pm-course/03-discovery-and-research/3-1-framing-the-problem/3-1-4-audience-map/) **Project**
 
 ### 3.2 Talking to users
 
-- [3.2.1 Get out of the building](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-1-get-out-of-the-building/) *draft*
-- [3.2.2 User interviews](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-2-user-interviews/) *draft*
-- [3.2.3 Surveys, usability tests and diary studies](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-3-surveys-usability-tests-and-diary-studies/) *draft*
-- [3.2.4 Synthesis](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-4-synthesis/) *draft*
-- [3.2.5 Five interviews](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-5-five-interviews/) **Project** *draft*
+- [3.2.1 Get out of the building](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-1-get-out-of-the-building/)
+- [3.2.2 User interviews](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-2-user-interviews/)
+- [3.2.3 Surveys, usability tests and diary studies](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-3-surveys-usability-tests-and-diary-studies/)
+- [3.2.4 Synthesis](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-4-synthesis/)
+- [3.2.5 Five interviews](/open-pm-course/03-discovery-and-research/3-2-talking-to-users/3-2-5-five-interviews/) **Project**
 
 ### 3.3 Market and competition
 
-- [3.3.1 Market sizing](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-1-market-sizing/) *draft*
-- [3.3.2 Competitive analysis](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-2-competitive-analysis/) *draft*
-- [3.3.3 Continuous discovery](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-3-continuous-discovery/) *draft*
-- [3.3.4 Opportunity solution tree](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-4-opportunity-solution-tree/) **Project** *draft*
+- [3.3.1 Market sizing](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-1-market-sizing/)
+- [3.3.2 Competitive analysis](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-2-competitive-analysis/)
+- [3.3.3 Continuous discovery](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-3-continuous-discovery/)
+- [3.3.4 Opportunity solution tree](/open-pm-course/03-discovery-and-research/3-3-market-and-competition/3-3-4-opportunity-solution-tree/) **Project**
 
 ## 4 · Strategy and prioritisation
 

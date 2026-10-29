@@ -232,37 +232,21 @@ export default [
         "items": [
           {
             "label": "3.1.1 Problems before solutions",
-            "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-1-problems-before-solutions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-1-problems-before-solutions"
           },
           {
             "label": "3.1.2 Jobs to be done",
-            "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-2-jobs-to-be-done",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-2-jobs-to-be-done"
           },
           {
             "label": "3.1.3 Audiences, personas and the 1/9/90 rule",
-            "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-3-audiences-personas-and-the-1-9-90-rule",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-3-audiences-personas-and-the-1-9-90-rule"
           },
           {
             "label": "3.1.4 Audience map",
             "slug": "03-discovery-and-research/3-1-framing-the-problem/3-1-4-audience-map",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -273,45 +257,25 @@ export default [
         "items": [
           {
             "label": "3.2.1 Get out of the building",
-            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-1-get-out-of-the-building",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-1-get-out-of-the-building"
           },
           {
             "label": "3.2.2 User interviews",
-            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-2-user-interviews",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-2-user-interviews"
           },
           {
             "label": "3.2.3 Surveys, usability tests and diary studies",
-            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-3-surveys-usability-tests-and-diary-studies",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-3-surveys-usability-tests-and-diary-studies"
           },
           {
             "label": "3.2.4 Synthesis",
-            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-4-synthesis",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-4-synthesis"
           },
           {
             "label": "3.2.5 Five interviews",
             "slug": "03-discovery-and-research/3-2-talking-to-users/3-2-5-five-interviews",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -322,37 +286,21 @@ export default [
         "items": [
           {
             "label": "3.3.1 Market sizing",
-            "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-1-market-sizing",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-1-market-sizing"
           },
           {
             "label": "3.3.2 Competitive analysis",
-            "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-2-competitive-analysis",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-2-competitive-analysis"
           },
           {
             "label": "3.3.3 Continuous discovery",
-            "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-3-continuous-discovery",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-3-continuous-discovery"
           },
           {
             "label": "3.3.4 Opportunity solution tree",
             "slug": "03-discovery-and-research/3-3-market-and-competition/3-3-4-opportunity-solution-tree",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
