@@ -531,35 +531,19 @@ export default [
         "items": [
           {
             "label": "7.1.1 What AI PMs do differently",
-            "slug": "07-ai-product-management/7-1-foundations/7-1-1-what-ai-pms-do-differently",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-1-foundations/7-1-1-what-ai-pms-do-differently"
           },
           {
             "label": "7.1.2 How models work, for PMs",
-            "slug": "07-ai-product-management/7-1-foundations/7-1-2-how-models-work-for-pms",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-1-foundations/7-1-2-how-models-work-for-pms"
           },
           {
             "label": "7.1.3 Probabilistic products",
-            "slug": "07-ai-product-management/7-1-foundations/7-1-3-probabilistic-products",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-1-foundations/7-1-3-probabilistic-products"
           },
           {
             "label": "7.1.4 The AI landscape",
-            "slug": "07-ai-product-management/7-1-foundations/7-1-4-the-ai-landscape",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-1-foundations/7-1-4-the-ai-landscape"
           }
         ]
       },
@@ -569,37 +553,21 @@ export default [
         "items": [
           {
             "label": "7.2.1 The AI feature decision tree",
-            "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-1-the-ai-feature-decision-tree",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-1-the-ai-feature-decision-tree"
           },
           {
             "label": "7.2.2 The AI maturity model",
-            "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-2-the-ai-maturity-model",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-2-the-ai-maturity-model"
           },
           {
             "label": "7.2.3 Build, buy or fine-tune",
-            "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-3-build-buy-or-fine-tune",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-3-build-buy-or-fine-tune"
           },
           {
             "label": "7.2.4 AI opportunity audit",
             "slug": "07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-4-ai-opportunity-audit",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -610,53 +578,29 @@ export default [
         "items": [
           {
             "label": "7.3.1 UX for uncertainty",
-            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-1-ux-for-uncertainty",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-1-ux-for-uncertainty"
           },
           {
             "label": "7.3.2 Human in the loop",
-            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-2-human-in-the-loop",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-2-human-in-the-loop"
           },
           {
             "label": "7.3.3 Trust, safety and failure modes",
-            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-3-trust-safety-and-failure-modes",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-3-trust-safety-and-failure-modes"
           },
           {
             "label": "7.3.4 Prompting and RAG for PMs",
-            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-4-prompting-and-rag-for-pms",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-4-prompting-and-rag-for-pms"
           },
           {
             "label": "7.3.5 Agents and tools",
-            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-5-agents-and-tools",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-5-agents-and-tools"
           },
           {
             "label": "7.3.6 AI PRD",
             "slug": "07-ai-product-management/7-3-designing-ai-products/7-3-6-ai-prd",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -667,53 +611,29 @@ export default [
         "items": [
           {
             "label": "7.4.1 Why evals are the PM's job",
-            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-1-why-evals-are-the-pms-job",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-1-why-evals-are-the-pms-job"
           },
           {
             "label": "7.4.2 Four kinds of eval",
-            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-2-four-kinds-of-eval",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-2-four-kinds-of-eval"
           },
           {
             "label": "7.4.3 AI metrics",
-            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-3-ai-metrics",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-3-ai-metrics"
           },
           {
             "label": "7.4.4 Golden datasets and error analysis",
-            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-4-golden-datasets-and-error-analysis",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-4-golden-datasets-and-error-analysis"
           },
           {
             "label": "7.4.5 Launch readiness for AI",
-            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-5-launch-readiness-for-ai",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-5-launch-readiness-for-ai"
           },
           {
             "label": "7.4.6 Eval suite",
             "slug": "07-ai-product-management/7-4-evals-and-metrics/7-4-6-eval-suite",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -724,27 +644,15 @@ export default [
         "items": [
           {
             "label": "7.5.1 Data strategy for AI products",
-            "slug": "07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-1-data-strategy-for-ai-products",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-1-data-strategy-for-ai-products"
           },
           {
             "label": "7.5.2 Privacy, consent and regulation",
-            "slug": "07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-2-privacy-consent-and-regulation",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-2-privacy-consent-and-regulation"
           },
           {
             "label": "7.5.3 Responsible AI launch checklist",
-            "slug": "07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-3-responsible-ai-launch-checklist",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-3-responsible-ai-launch-checklist"
           }
         ]
       },
@@ -754,37 +662,21 @@ export default [
         "items": [
           {
             "label": "7.6.1 Prototyping with AI",
-            "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-1-prototyping-with-ai",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-1-prototyping-with-ai"
           },
           {
             "label": "7.6.2 PM workflows with AI",
-            "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-2-pm-workflows-with-ai",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-2-pm-workflows-with-ai"
           },
           {
             "label": "7.6.3 A PM second brain",
-            "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-3-a-pm-second-brain",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-3-a-pm-second-brain"
           },
           {
             "label": "7.6.4 Working prototype",
             "slug": "07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-4-working-prototype",
             "attrs": {
               "data-type": "project"
-            },
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
             }
           }
         ]
@@ -795,27 +687,15 @@ export default [
         "items": [
           {
             "label": "7.7.1 The AI PM career path",
-            "slug": "07-ai-product-management/7-7-becoming-an-ai-pm/7-7-1-the-ai-pm-career-path",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-7-becoming-an-ai-pm/7-7-1-the-ai-pm-career-path"
           },
           {
             "label": "7.7.2 Breaking in",
-            "slug": "07-ai-product-management/7-7-becoming-an-ai-pm/7-7-2-breaking-in",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-7-becoming-an-ai-pm/7-7-2-breaking-in"
           },
           {
             "label": "7.7.3 AI PM interview questions",
-            "slug": "07-ai-product-management/7-7-becoming-an-ai-pm/7-7-3-ai-pm-interview-questions",
-            "badge": {
-              "text": "Draft",
-              "variant": "caution"
-            }
+            "slug": "07-ai-product-management/7-7-becoming-an-ai-pm/7-7-3-ai-pm-interview-questions"
           }
         ]
       }

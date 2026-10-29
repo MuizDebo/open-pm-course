@@ -162,54 +162,54 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ### 7.1 Foundations
 
-- [7.1.1 What AI PMs do differently](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-1-what-ai-pms-do-differently/) *draft*
-- [7.1.2 How models work, for PMs](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-2-how-models-work-for-pms/) *draft*
-- [7.1.3 Probabilistic products](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-3-probabilistic-products/) *draft*
-- [7.1.4 The AI landscape](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-4-the-ai-landscape/) *draft*
+- [7.1.1 What AI PMs do differently](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-1-what-ai-pms-do-differently/)
+- [7.1.2 How models work, for PMs](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-2-how-models-work-for-pms/)
+- [7.1.3 Probabilistic products](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-3-probabilistic-products/)
+- [7.1.4 The AI landscape](/open-pm-course/07-ai-product-management/7-1-foundations/7-1-4-the-ai-landscape/)
 
 ### 7.2 Deciding where AI belongs
 
-- [7.2.1 The AI feature decision tree](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-1-the-ai-feature-decision-tree/) *draft*
-- [7.2.2 The AI maturity model](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-2-the-ai-maturity-model/) *draft*
-- [7.2.3 Build, buy or fine-tune](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-3-build-buy-or-fine-tune/) *draft*
-- [7.2.4 AI opportunity audit](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-4-ai-opportunity-audit/) **Project** *draft*
+- [7.2.1 The AI feature decision tree](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-1-the-ai-feature-decision-tree/)
+- [7.2.2 The AI maturity model](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-2-the-ai-maturity-model/)
+- [7.2.3 Build, buy or fine-tune](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-3-build-buy-or-fine-tune/)
+- [7.2.4 AI opportunity audit](/open-pm-course/07-ai-product-management/7-2-deciding-where-ai-belongs/7-2-4-ai-opportunity-audit/) **Project**
 
 ### 7.3 Designing AI products
 
-- [7.3.1 UX for uncertainty](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-1-ux-for-uncertainty/) *draft*
-- [7.3.2 Human in the loop](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-2-human-in-the-loop/) *draft*
-- [7.3.3 Trust, safety and failure modes](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-3-trust-safety-and-failure-modes/) *draft*
-- [7.3.4 Prompting and RAG for PMs](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-4-prompting-and-rag-for-pms/) *draft*
-- [7.3.5 Agents and tools](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-5-agents-and-tools/) *draft*
-- [7.3.6 AI PRD](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-6-ai-prd/) **Project** *draft*
+- [7.3.1 UX for uncertainty](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-1-ux-for-uncertainty/)
+- [7.3.2 Human in the loop](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-2-human-in-the-loop/)
+- [7.3.3 Trust, safety and failure modes](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-3-trust-safety-and-failure-modes/)
+- [7.3.4 Prompting and RAG for PMs](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-4-prompting-and-rag-for-pms/)
+- [7.3.5 Agents and tools](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-5-agents-and-tools/)
+- [7.3.6 AI PRD](/open-pm-course/07-ai-product-management/7-3-designing-ai-products/7-3-6-ai-prd/) **Project**
 
 ### 7.4 Evals and metrics
 
-- [7.4.1 Why evals are the PM's job](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-1-why-evals-are-the-pms-job/) *draft*
-- [7.4.2 Four kinds of eval](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-2-four-kinds-of-eval/) *draft*
-- [7.4.3 AI metrics](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-3-ai-metrics/) *draft*
-- [7.4.4 Golden datasets and error analysis](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-4-golden-datasets-and-error-analysis/) *draft*
-- [7.4.5 Launch readiness for AI](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-5-launch-readiness-for-ai/) *draft*
-- [7.4.6 Eval suite](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-6-eval-suite/) **Project** *draft*
+- [7.4.1 Why evals are the PM's job](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-1-why-evals-are-the-pms-job/)
+- [7.4.2 Four kinds of eval](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-2-four-kinds-of-eval/)
+- [7.4.3 AI metrics](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-3-ai-metrics/)
+- [7.4.4 Golden datasets and error analysis](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-4-golden-datasets-and-error-analysis/)
+- [7.4.5 Launch readiness for AI](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-5-launch-readiness-for-ai/)
+- [7.4.6 Eval suite](/open-pm-course/07-ai-product-management/7-4-evals-and-metrics/7-4-6-eval-suite/) **Project**
 
 ### 7.5 Data, ethics and responsibility
 
-- [7.5.1 Data strategy for AI products](/open-pm-course/07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-1-data-strategy-for-ai-products/) *draft*
-- [7.5.2 Privacy, consent and regulation](/open-pm-course/07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-2-privacy-consent-and-regulation/) *draft*
-- [7.5.3 Responsible AI launch checklist](/open-pm-course/07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-3-responsible-ai-launch-checklist/) *draft*
+- [7.5.1 Data strategy for AI products](/open-pm-course/07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-1-data-strategy-for-ai-products/)
+- [7.5.2 Privacy, consent and regulation](/open-pm-course/07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-2-privacy-consent-and-regulation/)
+- [7.5.3 Responsible AI launch checklist](/open-pm-course/07-ai-product-management/7-5-data-ethics-and-responsibility/7-5-3-responsible-ai-launch-checklist/)
 
 ### 7.6 AI in your own workflow
 
-- [7.6.1 Prototyping with AI](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-1-prototyping-with-ai/) *draft*
-- [7.6.2 PM workflows with AI](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-2-pm-workflows-with-ai/) *draft*
-- [7.6.3 A PM second brain](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-3-a-pm-second-brain/) *draft*
-- [7.6.4 Working prototype](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-4-working-prototype/) **Project** *draft*
+- [7.6.1 Prototyping with AI](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-1-prototyping-with-ai/)
+- [7.6.2 PM workflows with AI](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-2-pm-workflows-with-ai/)
+- [7.6.3 A PM second brain](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-3-a-pm-second-brain/)
+- [7.6.4 Working prototype](/open-pm-course/07-ai-product-management/7-6-ai-in-your-own-workflow/7-6-4-working-prototype/) **Project**
 
 ### 7.7 Becoming an AI PM
 
-- [7.7.1 The AI PM career path](/open-pm-course/07-ai-product-management/7-7-becoming-an-ai-pm/7-7-1-the-ai-pm-career-path/) *draft*
-- [7.7.2 Breaking in](/open-pm-course/07-ai-product-management/7-7-becoming-an-ai-pm/7-7-2-breaking-in/) *draft*
-- [7.7.3 AI PM interview questions](/open-pm-course/07-ai-product-management/7-7-becoming-an-ai-pm/7-7-3-ai-pm-interview-questions/) *draft*
+- [7.7.1 The AI PM career path](/open-pm-course/07-ai-product-management/7-7-becoming-an-ai-pm/7-7-1-the-ai-pm-career-path/)
+- [7.7.2 Breaking in](/open-pm-course/07-ai-product-management/7-7-becoming-an-ai-pm/7-7-2-breaking-in/)
+- [7.7.3 AI PM interview questions](/open-pm-course/07-ai-product-management/7-7-becoming-an-ai-pm/7-7-3-ai-pm-interview-questions/)
 
 ## 8 · Career
 

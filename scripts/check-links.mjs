@@ -46,7 +46,8 @@ async function check(url) {
       res = await fetch(url, { method: 'GET', redirect: 'follow', signal: ctrl.signal, headers: { 'user-agent': 'open-pm-course-link-check' } });
     }
     // Some hosts answer 403 to any automated request even though the page is fine in a browser.
-    const botBlocked = res.status === 403 && /(^|.)medium.com$/.test(new URL(url).hostname);
+    const botBlocked =
+      res.status === 403 && /(^|.)(medium.com|chatgpt.com|openai.com)$/.test(new URL(url).hostname);
     if (res.status >= 400 && !botBlocked) failures.push({ url, reason: `HTTP ${res.status}` });
   } catch (e) {
     failures.push({ url, reason: e.name === 'AbortError' ? 'timeout' : e.message });
