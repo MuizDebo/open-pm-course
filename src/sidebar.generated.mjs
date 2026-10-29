@@ -799,21 +799,13 @@ export default [
     "items": [
       {
         "label": "9.1 The capstone brief",
-        "slug": "09-capstone/9-1-the-capstone-brief",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "09-capstone/9-1-the-capstone-brief"
       },
       {
         "label": "9.2 Discovery pack",
         "slug": "09-capstone/9-2-discovery-pack",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
@@ -821,10 +813,6 @@ export default [
         "slug": "09-capstone/9-3-strategy-pack",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
@@ -832,10 +820,6 @@ export default [
         "slug": "09-capstone/9-4-delivery-pack",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
@@ -843,10 +827,6 @@ export default [
         "slug": "09-capstone/9-5-measurement-pack",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
@@ -854,10 +834,6 @@ export default [
         "slug": "09-capstone/9-6-ai-pack",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
@@ -865,19 +841,11 @@ export default [
         "slug": "09-capstone/9-7-the-pitch",
         "attrs": {
           "data-type": "project"
-        },
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
         }
       },
       {
         "label": "9.8 Conclusion and what next",
-        "slug": "09-capstone/9-8-conclusion-and-what-next",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "09-capstone/9-8-conclusion-and-what-next"
       }
     ]
   }

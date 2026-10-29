@@ -240,11 +240,11 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 
 ## 9 · Capstone
 
-- [9.1 The capstone brief](/open-pm-course/09-capstone/9-1-the-capstone-brief/) *draft*
-- [9.2 Discovery pack](/open-pm-course/09-capstone/9-2-discovery-pack/) **Project** *draft*
-- [9.3 Strategy pack](/open-pm-course/09-capstone/9-3-strategy-pack/) **Project** *draft*
-- [9.4 Delivery pack](/open-pm-course/09-capstone/9-4-delivery-pack/) **Project** *draft*
-- [9.5 Measurement pack](/open-pm-course/09-capstone/9-5-measurement-pack/) **Project** *draft*
-- [9.6 AI pack](/open-pm-course/09-capstone/9-6-ai-pack/) **Project** *draft*
-- [9.7 The pitch](/open-pm-course/09-capstone/9-7-the-pitch/) **Project** *draft*
-- [9.8 Conclusion and what next](/open-pm-course/09-capstone/9-8-conclusion-and-what-next/) *draft*
+- [9.1 The capstone brief](/open-pm-course/09-capstone/9-1-the-capstone-brief/)
+- [9.2 Discovery pack](/open-pm-course/09-capstone/9-2-discovery-pack/) **Project**
+- [9.3 Strategy pack](/open-pm-course/09-capstone/9-3-strategy-pack/) **Project**
+- [9.4 Delivery pack](/open-pm-course/09-capstone/9-4-delivery-pack/) **Project**
+- [9.5 Measurement pack](/open-pm-course/09-capstone/9-5-measurement-pack/) **Project**
+- [9.6 AI pack](/open-pm-course/09-capstone/9-6-ai-pack/) **Project**
+- [9.7 The pitch](/open-pm-course/09-capstone/9-7-the-pitch/) **Project**
+- [9.8 Conclusion and what next](/open-pm-course/09-capstone/9-8-conclusion-and-what-next/)

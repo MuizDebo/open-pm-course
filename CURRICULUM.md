@@ -364,6 +364,6 @@ project per course finishes in about 20.
 
 1. Which of your own PM experiences go into 2.4.3 "Lessons from the trenches"? That lesson
    cannot be written by anyone else.
-2. Should the capstone product be the learner's own idea, or a supplied case (so submissions
-   are comparable)? Suggested: own idea, with a supplied fallback case.
-3. Is the "PM in emerging markets" lesson (8.1.4) a single lesson or a short elective course?
+2. Settled 2026-10-29: the capstone uses the learner's own idea, with a supplied fallback case
+   ("Restock", defined in lesson 9.1).
+3. Settled 2026-10-29: "PM in emerging markets" (8.1.4) is a single lesson.
