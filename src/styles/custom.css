@@ -1,0 +1,22 @@
+/* Course-specific styling on top of Starlight's defaults. Keep it light. */
+
+:root {
+  --sl-color-accent-low: #1d2a3a;
+  --sl-color-accent: #2f6fed;
+  --sl-color-accent-high: #c7dbff;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #dce8ff;
+  --sl-color-accent: #1f5fd6;
+  --sl-color-accent-high: #0f2f6e;
+}
+
+/* Assignment panel, mirroring The Odin Project's lesson-content__panel. */
+.sl-markdown-content .assignment {
+  border: 1px solid var(--sl-color-gray-5);
+  border-left: 4px solid var(--sl-color-accent);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--sl-color-gray-7, var(--sl-color-black));
+}
