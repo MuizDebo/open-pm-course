@@ -5,35 +5,19 @@ export default [
     "items": [
       {
         "label": "0.1 How this course works",
-        "slug": "00-how-this-course-works/0-1-how-this-course-works",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "00-how-this-course-works/0-1-how-this-course-works"
       },
       {
         "label": "0.2 What you need",
-        "slug": "00-how-this-course-works/0-2-what-you-need",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "00-how-this-course-works/0-2-what-you-need"
       },
       {
         "label": "0.3 How to submit projects",
-        "slug": "00-how-this-course-works/0-3-how-to-submit-projects",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "00-how-this-course-works/0-3-how-to-submit-projects"
       },
       {
         "label": "0.4 How to get help and contribute",
-        "slug": "00-how-this-course-works/0-4-how-to-get-help-and-contribute",
-        "badge": {
-          "text": "Draft",
-          "variant": "caution"
-        }
+        "slug": "00-how-this-course-works/0-4-how-to-get-help-and-contribute"
       }
     ]
   },
