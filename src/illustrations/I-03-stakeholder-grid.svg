@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 450" width="720" height="450" role="img" aria-labelledby="i03-title i03-desc">
+<title id="i03-title">A stakeholder grid: influence against interest</title>
+<desc id="i03-desc">A two-by-two grid with influence over product decisions on the vertical axis and interest in day-to-day product work on the horizontal axis, using the supplied clinic-scheduling case. The founder-CEO and head of sales sit high on both. The engineering lead and designer are high interest with medium to high influence. Support staff are high interest, low influence. Clinic users are low on both. The compliance adviser sits alone in the highlighted high-influence, low-interest corner, the corner that catches PMs out. The quadrants are left unlabelled.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+
+<!-- Highlighted corner: high influence, low interest -->
+<rect x="96" y="16" width="280" height="180" class="tint"/>
+<rect x="96" y="16" width="560" height="360" class="ln"/>
+<path d="M376,16 V376 M96,196 H656" class="ln d"/>
+
+<!-- Axes -->
+<text x="36" y="196" class="c" transform="rotate(-90 36 196)">Influence over product decisions</text>
+<text x="86" y="30" class="s m e">High</text>
+<text x="86" y="376" class="s m e">Low</text>
+<text x="96" y="398" class="s m">Low</text>
+<text x="656" y="398" class="s m e">High</text>
+<text x="376" y="420" class="c">Interest in day-to-day product work</text>
+
+<!-- Stakeholders -->
+<circle cx="160" cy="84" r="8" class="acc"/>
+<text x="176" y="89" class="b">Compliance adviser</text>
+<text x="176" y="112" class="s m">The corner that</text>
+<text x="176" y="130" class="s m">catches PMs out</text>
+
+<circle cx="560" cy="56" r="7" class="ink"/>
+<text x="546" y="61" class="s e">Founder-CEO</text>
+<circle cx="470" cy="104" r="7" class="ink"/>
+<text x="484" y="109" class="s">Head of sales</text>
+<circle cx="520" cy="164" r="7" class="ink"/>
+<text x="534" y="169" class="s">Engineering lead</text>
+<circle cx="470" cy="236" r="7" class="ink"/>
+<text x="484" y="241" class="s">Designer</text>
+<circle cx="540" cy="320" r="7" class="ink"/>
+<text x="554" y="325" class="s">Support staff</text>
+<circle cx="250" cy="304" r="7" class="ink"/>
+<text x="264" y="309" class="s">Clinic users</text>
+
+<text x="376" y="442" class="s m c">Example: the supplied clinic-scheduling case</text>
+</svg>

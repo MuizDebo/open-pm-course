@@ -28,6 +28,8 @@ This section contains a general overview of topics that you will learn in this l
 
 ## The five levels
 
+![Five rising steps: level 0 manual, level 1 assisted, level 2 suggested, level 3 automated with review, level 4 adaptive. Level 2 is tagged as where most of the value is; level 3 is highlighted and marked as the usual ceiling; level 4 is dashed, as very few teams need it. Beneath, the trust each level needs: none, low, moderate, high, very high.](illustrations/I-10-ai-maturity-staircase.svg "Each level up the AI maturity model needs more trust, and level three is where most features should stop.")
+
 **Level 0: Manual.** The user does the task. The product may provide tools, templates and
 shortcuts, but nothing is inferred. This is where most features start, and it is often where
 the data that enables the next level is collected. A categorisation feature at level zero

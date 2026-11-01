@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 370" width="720" height="370" role="img" aria-labelledby="i08-title i08-desc">
+<title id="i08-title">A funnel and a set of cohort retention curves</title>
+<desc id="i08-desc">Left: a checkout funnel. 1,000 people landed on the pricing page, 600 started checkout (60 percent of the previous step), 240 entered a card (40 percent) and 216 paid (90 percent). The first step loses the most people in number, but the drop to entering a card is the biggest proportional drop, so it is highlighted as the one to look at. Right: retention curves for three monthly sign-up cohorts, showing the share still active on days 0, 1, 7, 30 and 90. All three fall fast and then flatten. The newest cohort, March, flattens highest at 25 percent, then February at 18 and January at 11: newer cohorts above older ones means the product is improving.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+
+<!-- Funnel -->
+<text x="16" y="28" class="l b">Funnel</text>
+<text x="16" y="50" class="s m">Where do people drop off?</text>
+
+<text x="16" y="82" class="s">Landed on pricing page</text>
+<text x="336" y="82" class="s m e">1,000</text>
+<rect x="16" y="90" width="300" height="22" rx="4" class="soft"/>
+
+<text x="16" y="142" class="s">Started checkout</text>
+<text x="336" y="142" class="s m e">600 · 60%</text>
+<rect x="16" y="150" width="180" height="22" rx="4" class="soft"/>
+<text x="206" y="166" class="s m">Most lost in number</text>
+
+<text x="16" y="202" class="s">Entered a card</text>
+<text x="336" y="202" class="s m e">240 · 40%</text>
+<rect x="16" y="210" width="72" height="22" rx="4" class="acc"/>
+<text x="98" y="226" class="s b">Biggest proportional drop</text>
+
+<text x="16" y="262" class="s">Paid</text>
+<text x="336" y="262" class="s m e">216 · 90%</text>
+<rect x="16" y="270" width="65" height="22" rx="4" class="soft"/>
+
+<text x="16" y="326" class="s m">% = share kept from the previous step</text>
+
+<!-- Cohorts -->
+<text x="384" y="28" class="l b">Cohorts</text>
+<text x="384" y="50" class="s m">Do people keep coming back?</text>
+<text x="424" y="70" class="s m">Share still active</text>
+
+<path d="M424,80 V310 H650" class="ln"/>
+<path d="M424,195 H650" class="ln d"/>
+<text x="416" y="85" class="s m e">100%</text>
+<text x="416" y="200" class="s m e">50%</text>
+<text x="416" y="315" class="s m e">0%</text>
+
+<text x="430" y="330" class="s m c">0</text>
+<text x="484" y="330" class="s m c">1</text>
+<text x="538" y="330" class="s m c">7</text>
+<text x="592" y="330" class="s m c">30</text>
+<text x="646" y="330" class="s m c">90</text>
+<text x="538" y="352" class="s m c">Days since sign-up</text>
+
+<polyline points="430,80 484,218 538,264 592,280.1 646,284.7" class="lm" stroke-linejoin="round"/>
+<polyline points="430,80 484,199.6 538,247.9 592,264 646,268.6" class="lk w2" stroke-linejoin="round"/>
+<polyline points="430,80 484,181.2 538,229.5 592,247.9 646,252.5" class="la" stroke-linejoin="round"/>
+<text x="654" y="257.5" class="s b">Mar</text>
+<text x="654" y="273.6" class="s">Feb</text>
+<text x="654" y="289.7" class="s m">Jan</text>
+
+<text x="500" y="100" class="s m">Newer cohorts above older:</text>
+<text x="500" y="118" class="s m">the product is improving</text>
+<text x="700" y="148" class="s m e">Flat at 25%: a quarter</text>
+<text x="700" y="166" class="s m e">found lasting value</text>
+</svg>

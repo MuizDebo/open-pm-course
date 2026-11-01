@@ -61,6 +61,8 @@ and feeding it back into discovery. Courses 5 and 6.
 A PM at a large company may spend a month in one bucket. A PM at a ten-person startup cycles
 through all four before lunch. Both are doing the same job.
 
+![A loop of four boxes, Discover, Decide, Define, and Deliver and measure, with Deliver and measure feeding back into Discover. "What should we build, and why?" covers Discover and Decide, "Is it getting built well?" sits with Define, and "Did it work?" sits with Deliver and measure.](illustrations/I-01-four-kinds-of-work.svg "The four kinds of PM work form a cycle, and each of the job's three questions lives in part of it.")
+
 ## Accountable, not in charge
 
 The thing that makes product management strange is that you are accountable for outcomes you

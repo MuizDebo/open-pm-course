@@ -70,6 +70,8 @@ way other people adopt? That is the behaviour promotions follow.
 
 ## The fork: individual contributor or manager
 
+![From the bottom: Associate PM, Product Manager, Senior PM, marked as a destination for many. The ladder then forks. The manager track rises through Group PM, Director of Product and VP Product to Chief Product Officer; the individual-contributor track rises through Principal PM to Distinguished or Fellow, at companies that have it. A two-way arrow between Group PM and Principal PM shows the fork is reversible.](illustrations/I-12-pm-career-ladder.svg "The typical PM ladder: one trunk up to Senior PM, then a reversible fork into the manager and individual-contributor tracks.")
+
 Around the senior-to-staff boundary, the ladder splits.
 
 **The manager track** goes Group PM to Director to VP. You stop owning products directly and

@@ -117,6 +117,8 @@ Weekly orders delivered (north star)
     └── Checkout completion rate
 ```
 
+![The north star, weekly orders delivered, splits into active buyers this week and orders per active buyer. Active buyers splits into new buyers activated and returning buyers; orders per active buyer splits into listings available in the buyer's area and checkout completion rate. The events under the first two inputs are sign-up completed, first order placed, order placed, and days since previous order.](illustrations/I-07-metrics-tree.svg "The lesson's metrics tree drawn out: a north star, the outputs it breaks into, the inputs teams can move, and the events that measure them.")
+
 A tree like this does three things: it shows every team where its work connects to the
 business, it stops arguments about which metric matters by showing how they relate, and it
 is the specification for your dashboard. Project 6.7 asks you to build one for your product.

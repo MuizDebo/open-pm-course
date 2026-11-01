@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 484" width="720" height="484" role="img" aria-labelledby="i09-title i09-desc">
+<title id="i09-title">The AI feature decision tree: five questions in order</title>
+<desc id="i09-desc">Five questions asked in order, each leading down to the next when the answer is good. 1, is the data available? If no: not yet, start logging first. 2, is the task well defined? If no: not yet, write the rubric first. 3, what is the cost of an error? If high: more review, and suggest rather than act. 4, how frequent is the task? If low: no, solve it another way. 5, how easy is it for a user to correct? If hard: no if errors are also costly, otherwise not yet, build the correction loop. If all five answers are good: go, because errors are cheap or correctable and volume is high.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+<defs>
+<marker id="i09-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="ink"/></marker>
+</defs>
+
+<!-- Questions -->
+<rect x="16" y="16" width="360" height="56" rx="10" class="boxk"/>
+<text x="32" y="40" class="b">1. Is the data available?</text>
+<text x="32" y="60" class="s m">Volume, quality, and the right to use it</text>
+
+<rect x="16" y="96" width="360" height="56" rx="10" class="boxk"/>
+<text x="32" y="120" class="b">2. Is the task well defined?</text>
+<text x="32" y="140" class="s m">Would two people agree on a correct output?</text>
+
+<rect x="16" y="176" width="360" height="56" rx="10" class="boxk"/>
+<text x="32" y="200" class="b">3. What is the cost of an error?</text>
+<text x="32" y="220" class="s m">What does a wrong answer cost, and who pays?</text>
+
+<rect x="16" y="256" width="360" height="56" rx="10" class="boxk"/>
+<text x="32" y="280" class="b">4. How frequent is the task?</text>
+<text x="32" y="300" class="s m">Models earn their keep on volume</text>
+
+<rect x="16" y="336" width="360" height="56" rx="10" class="boxk"/>
+<text x="32" y="360" class="b">5. How easy is it for a user to correct?</text>
+<text x="32" y="380" class="s m">Judge it at a glance, fix it in one action</text>
+
+<!-- Good answers: down -->
+<path d="M196,72 V94" class="lk" marker-end="url(#i09-k)"/>
+<text x="206" y="89" class="s m">Yes</text>
+<path d="M196,152 V174" class="lk" marker-end="url(#i09-k)"/>
+<text x="206" y="169" class="s m">Yes</text>
+<path d="M196,232 V254" class="lk" marker-end="url(#i09-k)"/>
+<text x="206" y="249" class="s m">Low</text>
+<path d="M196,312 V334" class="lk" marker-end="url(#i09-k)"/>
+<text x="206" y="329" class="s m">High</text>
+<path d="M196,392 V414" class="lk" marker-end="url(#i09-k)"/>
+<text x="206" y="409" class="s m">Easy</text>
+
+<!-- Weak answers: across -->
+<path d="M376,44 H428" class="lk" marker-end="url(#i09-k)"/>
+<text x="401" y="37" class="s m c">No</text>
+<path d="M376,124 H428" class="lk" marker-end="url(#i09-k)"/>
+<text x="401" y="117" class="s m c">No</text>
+<path d="M376,204 H428" class="lk" marker-end="url(#i09-k)"/>
+<text x="401" y="197" class="s m c">High</text>
+<path d="M376,284 H428" class="lk" marker-end="url(#i09-k)"/>
+<text x="401" y="277" class="s m c">Low</text>
+<path d="M376,364 H428" class="lk" marker-end="url(#i09-k)"/>
+<text x="401" y="357" class="s m c">Hard</text>
+
+<rect x="432" y="16" width="272" height="56" rx="10" class="soft"/>
+<text x="446" y="40" class="b">Not yet</text>
+<text x="446" y="60" class="s">Start logging first</text>
+
+<rect x="432" y="96" width="272" height="56" rx="10" class="soft"/>
+<text x="446" y="120" class="b">Not yet</text>
+<text x="446" y="140" class="s">Write the rubric first</text>
+
+<rect x="432" y="176" width="272" height="56" rx="10" class="box d"/>
+<text x="446" y="200" class="b">More review</text>
+<text x="446" y="220" class="s m">Suggest rather than act</text>
+
+<rect x="432" y="256" width="272" height="56" rx="10" class="boxk"/>
+<text x="446" y="280" class="b">No</text>
+<text x="446" y="300" class="s">Solve it another way</text>
+
+<rect x="432" y="328" width="272" height="72" rx="10" class="boxk"/>
+<text x="446" y="350" class="b">No, if errors are also costly</text>
+<text x="446" y="370" class="s">Otherwise not yet:</text>
+<text x="446" y="389" class="s">build the correction loop</text>
+
+<!-- Go -->
+<rect x="16" y="416" width="360" height="56" rx="10" class="acc"/>
+<text x="32" y="440" class="b ta">Go</text>
+<text x="32" y="460" class="s ta">Errors cheap or correctable, volume high</text>
+
+<text x="432" y="440" class="s m">Write the answers in a table,</text>
+<text x="432" y="460" class="s m">one row per candidate feature</text>
+</svg>

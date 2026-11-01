@@ -61,6 +61,8 @@ How to read one:
 - **Define "active" honestly.** Opened the app is a low bar. Did the core action is the
   bar. The curve for the honest definition is lower and more useful.
 
+![Left: a checkout funnel from 1,000 people on the pricing page to 600 who started checkout, 240 who entered a card and 216 who paid. The drop to entering a card, 40 percent kept, is highlighted as the biggest proportional drop. Right: retention curves for March, February and January cohorts that fall fast and then flatten, at 25, 18 and 11 percent, with the newest cohort highest.](illustrations/I-08-funnel-and-cohorts.svg "A funnel shows where people drop off; cohort curves show whether they stay, and whether newer cohorts stay better.")
+
 Andrew Chen's analysis of mobile retention, in the assignment, is the reference point: most
 apps lose most users within days, and the best ones differ in where the curve flattens, not
 in whether it falls.

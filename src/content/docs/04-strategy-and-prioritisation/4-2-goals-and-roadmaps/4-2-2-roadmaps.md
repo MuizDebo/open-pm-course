@@ -95,6 +95,8 @@ that is how to present it: "we are sure about this, fairly sure about that, and 
 in the rest". Items move left as they become clearer and fall off when learning kills them.
 A good Now/Next/Later roadmap looks different every month and nobody is surprised by that.
 
+![Top: a date-based roadmap with four features placed in quarters one to four; the first two read as promises and the last two are labelled fiction. Bottom: the same work in three columns. Now holds problems with named solutions, Next holds themes with likely solutions, Later holds themes only, and an arrow shows items moving left as they become clearer.](illustrations/I-06-roadmap-formats.svg "The same work as a dated roadmap and as Now / Next / Later: the second is specific about the near term and honest about the far term.")
+
 ## What goes on it
 
 Each item on a Now/Next/Later roadmap should carry:

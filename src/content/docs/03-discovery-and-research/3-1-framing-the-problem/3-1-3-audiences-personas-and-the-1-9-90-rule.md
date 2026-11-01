@@ -69,6 +69,8 @@ percent only consume. The numbers vary by product; the shape does not. It was fi
 documented in online forums and holds for review sites, marketplaces, social products and
 most things with a "post" button.
 
+![A grid of 100 squares. One highlighted square is the 1 percent who create most of the content and are the loudest users; nine shaded squares are the 9 percent who contribute occasionally; ninety plain squares are the 90 percent who only consume and are still getting value. A note says that needing 1,000 active contributors means planning for about 100,000 users.](illustrations/I-04-1-9-90-rule.svg "In most products with a \"post\" button, 1 percent create, 9 percent contribute now and then, and 90 percent only consume.")
+
 Why it matters for discovery:
 
 - **Your loudest users are the one percent.** The people who answer surveys, join your

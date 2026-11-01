@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 520" width="720" height="520" role="img" aria-labelledby="i06-title i06-desc">
+<title id="i06-title">A date-based roadmap beside a Now / Next / Later roadmap</title>
+<desc id="i06-desc">Top: a date-based roadmap with four features placed in quarters one to four: guided setup, SMS reminders, CSV import and multi-currency. The first two quarters read as promises that get screenshotted; the far columns are fiction. Bottom: the same work as a Now / Next / Later roadmap. Now ("we are sure") holds problems with named solutions: first invoice faster, solution guided setup; paid on time, solution SMS reminders. Next ("fairly sure") holds themes with likely solutions: bulk invoicing, likely CSV import; clients abroad, likely multi-currency. Later ("interested") holds themes only: accountant access and offline invoicing. An arrow underneath points left: items move left as they become clearer.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+<defs>
+<marker id="i06-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="acc"/></marker>
+</defs>
+
+<!-- Date-based -->
+<text x="16" y="30" class="l b">Date-based roadmap</text>
+<text x="16" y="52" class="s m">Features against quarters</text>
+
+<text x="102" y="84" class="s b m c">Q1</text>
+<text x="274" y="84" class="s b m c">Q2</text>
+<text x="446" y="84" class="s b m c">Q3</text>
+<text x="618" y="84" class="s b m c">Q4</text>
+<path d="M16,94 H704" class="ln"/>
+<path d="M188,68 V176 M360,68 V176 M532,68 V176" class="ln"/>
+
+<rect x="22" y="104" width="160" height="30" rx="6" class="boxk"/>
+<text x="102" y="124" class="s c">Guided setup</text>
+<rect x="194" y="142" width="160" height="30" rx="6" class="boxk"/>
+<text x="274" y="162" class="s c">SMS reminders</text>
+<rect x="366" y="104" width="160" height="30" rx="6" class="boxk d"/>
+<text x="446" y="124" class="s c">CSV import</text>
+<rect x="538" y="142" width="160" height="30" rx="6" class="boxk d"/>
+<text x="618" y="162" class="s c">Multi-currency</text>
+
+<path d="M22,186 V192 H354 V186" class="ln"/>
+<text x="188" y="212" class="s m c">Read as promises. Dates get screenshotted.</text>
+<path d="M366,186 V192 H698 V186" class="ln"/>
+<text x="532" y="212" class="s m c">The far columns are fiction</text>
+
+<path d="M16,234 H704" class="ln"/>
+
+<!-- Now / Next / Later -->
+<text x="16" y="266" class="l b">Now / Next / Later</text>
+<text x="16" y="288" class="s m">Horizons of decreasing certainty</text>
+
+<rect x="16" y="302" width="220" height="48" rx="8" class="soft"/>
+<text x="126" y="322" class="b c">Now</text>
+<text x="126" y="341" class="s m c">“We are sure”</text>
+<rect x="250" y="302" width="220" height="48" rx="8" class="soft"/>
+<text x="360" y="322" class="b c">Next</text>
+<text x="360" y="341" class="s m c">“Fairly sure”</text>
+<rect x="484" y="302" width="220" height="48" rx="8" class="soft"/>
+<text x="594" y="322" class="b c">Later</text>
+<text x="594" y="341" class="s m c">“Interested”</text>
+
+<rect x="16" y="360" width="220" height="52" rx="8" class="boxk"/>
+<text x="30" y="382" class="s b">First invoice faster</text>
+<text x="30" y="401" class="s m">Solution: guided setup</text>
+<rect x="16" y="420" width="220" height="52" rx="8" class="boxk"/>
+<text x="30" y="442" class="s b">Paid on time</text>
+<text x="30" y="461" class="s m">Solution: SMS reminders</text>
+
+<rect x="250" y="360" width="220" height="52" rx="8" class="box"/>
+<text x="264" y="382" class="s b">Bulk invoicing</text>
+<text x="264" y="401" class="s m">Likely: CSV import</text>
+<rect x="250" y="420" width="220" height="52" rx="8" class="box"/>
+<text x="264" y="442" class="s b">Clients abroad</text>
+<text x="264" y="461" class="s m">Likely: multi-currency</text>
+
+<rect x="484" y="360" width="220" height="52" rx="8" class="box d"/>
+<text x="498" y="382" class="s b">Accountant access</text>
+<text x="498" y="401" class="s m">Theme only</text>
+<rect x="484" y="420" width="220" height="52" rx="8" class="box d"/>
+<text x="498" y="442" class="s b">Offline invoicing</text>
+<text x="498" y="461" class="s m">Theme only</text>
+
+<path d="M690,488 H32" class="la" marker-end="url(#i06-a)"/>
+<text x="360" y="512" class="s m c">Items move left as they become clearer</text>
+</svg>

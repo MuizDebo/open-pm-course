@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 420" width="720" height="420" role="img" aria-labelledby="i10-title i10-desc">
+<title id="i10-title">The AI maturity model as a staircase</title>
+<desc id="i10-desc">Five steps rising left to right. Level 0, Manual: the user does the task. Level 1, Assisted: shows information, no suggestion. Level 2, Suggested: proposes an answer the user accepts, edits or rejects, marked as where most of the value is. Level 3, Automated with review: acts, and a human reviews after; it is highlighted, with a dashed line marking it as the usual ceiling. Level 4, Adaptive: acts and adjusts itself, drawn dashed because very few teams need it. Beneath, the trust each level needs: none, low, moderate, high, very high.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+
+<!-- Level 0 -->
+<rect x="16" y="270" width="134" height="90" rx="8" class="boxk"/>
+<text x="83" y="292" class="s m c">Level 0</text>
+<text x="83" y="312" class="b c">Manual</text>
+<text x="83" y="332" class="s c">User does</text>
+<text x="83" y="350" class="s c">the task</text>
+
+<!-- Level 1 -->
+<rect x="154" y="220" width="134" height="140" rx="8" class="boxk"/>
+<text x="221" y="242" class="s m c">Level 1</text>
+<text x="221" y="262" class="b c">Assisted</text>
+<text x="221" y="282" class="s c">Shows info,</text>
+<text x="221" y="300" class="s c">no suggestion</text>
+
+<!-- Level 2 -->
+<rect x="292" y="138" width="134" height="26" rx="4" class="hl"/>
+<text x="359" y="156" class="s b c th">Most of the value</text>
+<rect x="292" y="170" width="134" height="190" rx="8" class="boxk"/>
+<text x="359" y="192" class="s m c">Level 2</text>
+<text x="359" y="212" class="b c">Suggested</text>
+<text x="359" y="232" class="s c">Proposes; user</text>
+<text x="359" y="250" class="s c">accepts, edits</text>
+<text x="359" y="268" class="s c">or rejects</text>
+
+<!-- Level 3 -->
+<rect x="430" y="120" width="134" height="240" rx="8" class="acc"/>
+<text x="497" y="142" class="s c ta">Level 3</text>
+<text x="497" y="162" class="b c ta">Automated</text>
+<text x="497" y="180" class="b c ta">with review</text>
+<text x="497" y="202" class="s c ta">Acts; a human</text>
+<text x="497" y="220" class="s c ta">reviews after</text>
+
+<!-- Level 4 -->
+<rect x="568" y="70" width="134" height="290" rx="8" class="box d"/>
+<text x="635" y="92" class="s m c">Level 4</text>
+<text x="635" y="112" class="b c">Adaptive</text>
+<text x="635" y="146" class="s c">Acts and</text>
+<text x="635" y="164" class="s c">adjusts itself</text>
+<text x="635" y="322" class="s m c">Very few</text>
+<text x="635" y="340" class="s m c">teams need it</text>
+
+<!-- Usual ceiling -->
+<path d="M430,120 H712" class="lk d"/>
+<text x="436" y="112" class="s b">Usual ceiling</text>
+
+<!-- Trust -->
+<text x="16" y="386" class="s b m">Trust needed</text>
+<text x="83" y="408" class="s c">None</text>
+<text x="221" y="408" class="s c">Low</text>
+<text x="359" y="408" class="s c">Moderate</text>
+<text x="497" y="408" class="s c">High</text>
+<text x="635" y="408" class="s c">Very high</text>
+</svg>

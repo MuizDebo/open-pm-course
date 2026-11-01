@@ -31,6 +31,9 @@ Choose your product. Three options, in order of preference:
 
 Expect three to five hours.
 
+
+![A two-by-two grid of influence over product decisions against interest in day-to-day product work. The founder-CEO and head of sales are high on both; the engineering lead, designer and support staff have high interest; clinic users are low on both. The compliance adviser sits alone in the high-influence, low-interest corner, which is highlighted as the one that catches PMs out.](illustrations/I-03-stakeholder-grid.svg "Example only: a worked grid for the supplied clinic-scheduling case; the quadrant labels are left for you to write.")
+
 ## Assignment
 
 <div class="assignment">

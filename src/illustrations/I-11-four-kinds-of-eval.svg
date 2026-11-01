@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 424" width="720" height="424" role="img" aria-labelledby="i11-title i11-desc">
+<title id="i11-title">The four kinds of eval compared</title>
+<desc id="i11-desc">A comparison grid of the four kinds of eval. Deterministic checks catch format, length, and required and forbidden things; miss anything needing judgement; cost almost nothing; run on every output in production. Model as judge catches qualities you can describe in words; misses what the judge is also bad at; is cheap per item; runs on every change before it ships. Human evals catch everything in principle; miss consistency; cost minutes per item; run on a sample every week. A/B tests catch the actual effect on actual users; miss why; take weeks and real traffic; run on significant changes. A highlighted arrow runs from human evals back to the checks and the judge: what humans find becomes new checks and judge rubric lines.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+<defs>
+<marker id="i11-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="acc"/></marker>
+</defs>
+
+<!-- Column headers -->
+<rect x="126" y="16" width="140" height="56" rx="8" class="soft"/>
+<text x="196" y="40" class="b c">Deterministic</text>
+<text x="196" y="59" class="b c">checks</text>
+<rect x="274" y="16" width="140" height="56" rx="8" class="soft"/>
+<text x="344" y="49" class="b c">Model as judge</text>
+<rect x="422" y="16" width="140" height="56" rx="8" class="soft"/>
+<text x="492" y="49" class="b c">Human evals</text>
+<rect x="570" y="16" width="140" height="56" rx="8" class="soft"/>
+<text x="640" y="49" class="b c">A/B tests</text>
+
+<!-- Row rules and labels -->
+<path d="M16,84 H710 M16,156 H710 M16,220 H710 M16,284 H710 M16,348 H710" class="ln"/>
+<text x="16" y="108" class="s b">Catches</text>
+<text x="16" y="182" class="s b">Misses</text>
+<text x="16" y="246" class="s b">Cost</text>
+<text x="16" y="310" class="s b">Runs on</text>
+
+<!-- Catches -->
+<text x="196" y="108" class="s c">Format, length,</text>
+<text x="196" y="126" class="s c">required and</text>
+<text x="196" y="144" class="s c">forbidden things</text>
+<text x="344" y="108" class="s c">Qualities you</text>
+<text x="344" y="126" class="s c">can describe</text>
+<text x="344" y="144" class="s c">in words</text>
+<text x="492" y="108" class="s c">Everything,</text>
+<text x="492" y="126" class="s c">in principle</text>
+<text x="640" y="108" class="s c">The actual effect</text>
+<text x="640" y="126" class="s c">on actual users</text>
+
+<!-- Misses -->
+<text x="196" y="182" class="s m c">Anything needing</text>
+<text x="196" y="200" class="s m c">judgement</text>
+<text x="344" y="182" class="s m c">What the judge</text>
+<text x="344" y="200" class="s m c">is also bad at</text>
+<text x="492" y="182" class="s m c">Consistency</text>
+<text x="640" y="182" class="s m c">Why</text>
+
+<!-- Cost -->
+<text x="196" y="246" class="s c">Almost nothing</text>
+<text x="344" y="246" class="s c">Cheap per item</text>
+<text x="492" y="246" class="s c">High: minutes</text>
+<text x="492" y="264" class="s c">per item</text>
+<text x="640" y="246" class="s c">Weeks and</text>
+<text x="640" y="264" class="s c">real traffic</text>
+
+<!-- Runs on -->
+<text x="196" y="310" class="s c">Every output,</text>
+<text x="196" y="328" class="s c">in production</text>
+<text x="344" y="310" class="s c">Every change,</text>
+<text x="344" y="328" class="s c">before it ships</text>
+<text x="492" y="310" class="s c">A sample,</text>
+<text x="492" y="328" class="s c">every week</text>
+<text x="640" y="310" class="s c">Significant</text>
+<text x="640" y="328" class="s c">changes</text>
+
+<!-- Feedback from humans -->
+<path d="M492,356 V384 H196 V360" class="la" marker-end="url(#i11-a)"/>
+<path d="M344,384 V360" class="la" marker-end="url(#i11-a)"/>
+<text x="344" y="410" class="s m c">What humans find becomes new checks and judge rubric lines</text>
+</svg>

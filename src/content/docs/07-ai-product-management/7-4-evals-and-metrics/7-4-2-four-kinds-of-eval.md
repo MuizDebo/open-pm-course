@@ -118,6 +118,8 @@ current version, to confirm it with users and to catch what the offline evals co
 
 The combination that most teams converge on looks like a funnel.
 
+![A grid comparing deterministic checks, model as judge, human evals and A/B tests on what each catches, what each misses, what each costs and what each runs on, from every output in production to significant changes. An arrow runs from human evals back to the checks and the judge: what humans find becomes new checks and rubric lines.](illustrations/I-11-four-kinds-of-eval.svg "What each kind of eval catches, misses, costs and runs on, and how what humans find feeds the cheaper layers.")
+
 1. **Every output, in production**, passes through deterministic checks. Failures are
    logged and counted. Some block the response and trigger a fallback.
 2. **Every change to the feature**, before it ships, runs the golden set through the model

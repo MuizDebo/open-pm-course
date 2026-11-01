@@ -73,6 +73,8 @@ interviews and grouped so that the structure of the problem space is visible. Be
 chosen opportunity, several candidate solutions. Beneath each solution, the assumption tests
 that would tell you whether to build it.
 
+![A four-level tree. Outcome: more retailers record a sale on the same day. Opportunities, in customers' words: "I note sales in a notebook first", "Too busy serving to log it" (the chosen target) and "The network drops when I try". Under the target, three solutions: a quick-entry screen, a one-tap repeat sale and voice-note entry, each with an assumption test beneath: a one-day prototype with three retailers, a fake door counting taps, and a concierge test for five customers.](illustrations/I-05-opportunity-solution-tree.svg "An opportunity solution tree for the lesson's retailer example: one outcome, opportunities in customers' words, three solutions under the chosen opportunity, and a test under each.")
+
 Three things the tree does that a backlog cannot:
 
 - **It shows the shape of what you know.** A lopsided tree is a visible warning that you

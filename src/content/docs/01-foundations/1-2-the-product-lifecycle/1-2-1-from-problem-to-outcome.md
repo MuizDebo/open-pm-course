@@ -53,6 +53,8 @@ is done when the product ships. Draw them in a circle and the picture is right. 
 is the start of the next discovery. What you learn from shipping version one is the best
 evidence you will ever have for what version two should be.
 
+![Top: Discovery, Definition and Delivery run in a line to a hard stop at Launch, with Measurement after the stop marked as skipped. Bottom: the same four stages in a loop, with the arrow from Measurement back to Discovery highlighted.](illustrations/I-02-loop-versus-line.svg "Drawn as a line, the work stops at launch; drawn as a loop, measurement starts the next round of discovery.")
+
 Teams that work in a line show three symptoms. They treat the launch date as the goal, so
 scope gets protected and learning gets skipped. They have no measurement stage worth the
 name, so nobody knows whether the last thing worked. And their discovery is a one-off at

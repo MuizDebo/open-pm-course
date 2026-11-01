@@ -113,6 +113,8 @@ Write the five answers in a table, one row per candidate feature. Then sort into
 - **No.** Errors are expensive and hard to catch, or volume is low. Solve it another way,
   and say so in writing so the question does not come back every planning cycle.
 
+![Five questions in a column: is the data available, is the task well defined, what is the cost of an error, how frequent is the task, and how easy is it for a user to correct. A weak answer to question 1 or 2 leads to not yet; a high cost of error means more review and suggesting rather than acting; low frequency leads to no; hard correction leads to no if errors are also costly, otherwise not yet. Good answers to all five lead to go.](illustrations/I-09-ai-feature-decision-tree.svg "The five questions in order, and where a weak answer sends a feature: go, not yet or no.")
+
 The project at the end of this section does this for your own product. The table is the
 artifact; the reasoning in each cell is what an interviewer or an executive will push on.
 

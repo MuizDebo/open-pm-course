@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 380" width="720" height="380" role="img" aria-labelledby="i01-title i01-desc">
+<title id="i01-title">The four kinds of PM work as a cycle</title>
+<desc id="i01-desc">Four boxes joined clockwise in a loop: Discover (output: understanding), Decide (output: a choice), Define (output: a buildable spec) and Deliver and measure (output: what happened), which feeds back into Discover. The three questions of the job sit around the loop: "What should we build, and why?" spans Discover and Decide, "Is it getting built well?" sits under Define, and "Did it work?" sits under Deliver and measure.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+<defs>
+<marker id="i01-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="acc"/></marker>
+</defs>
+
+<!-- Question 1 spans the top row -->
+<circle cx="233" cy="31" r="12" class="boxk"/>
+<text x="233" y="36" class="s b c">1</text>
+<text x="253" y="36" class="b">What should we build, and why?</text>
+<path d="M100,62 V54 H620 V62" class="ln"/>
+
+<!-- The four kinds of work -->
+<rect x="100" y="80" width="220" height="72" rx="10" class="boxk"/>
+<text x="210" y="110" class="l b c">Discover</text>
+<text x="210" y="132" class="s m c">Output: understanding</text>
+
+<rect x="400" y="80" width="220" height="72" rx="10" class="boxk"/>
+<text x="510" y="110" class="l b c">Decide</text>
+<text x="510" y="132" class="s m c">Output: a choice</text>
+
+<rect x="400" y="240" width="220" height="72" rx="10" class="boxk"/>
+<text x="510" y="270" class="l b c">Define</text>
+<text x="510" y="292" class="s m c">Output: a buildable spec</text>
+
+<rect x="100" y="240" width="220" height="72" rx="10" class="boxk"/>
+<text x="210" y="270" class="l b c">Deliver and measure</text>
+<text x="210" y="292" class="s m c">Output: what happened</text>
+
+<!-- The cycle -->
+<path d="M326,116 H392" class="la" marker-end="url(#i01-a)"/>
+<path d="M510,158 V232" class="la" marker-end="url(#i01-a)"/>
+<path d="M394,276 H328" class="la" marker-end="url(#i01-a)"/>
+<path d="M210,234 V160" class="la" marker-end="url(#i01-a)"/>
+
+<!-- Questions 2 and 3 under the bottom row -->
+<path d="M400,322 V330 H620 V322" class="ln"/>
+<circle cx="404" cy="352" r="12" class="boxk"/>
+<text x="404" y="357" class="s b c">2</text>
+<text x="424" y="357" class="b">Is it getting built well?</text>
+
+<path d="M100,322 V330 H320 V322" class="ln"/>
+<circle cx="157" cy="352" r="12" class="boxk"/>
+<text x="157" y="357" class="s b c">3</text>
+<text x="177" y="357" class="b">Did it work?</text>
+</svg>

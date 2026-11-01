@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="i07-title i07-desc">
+<title id="i07-title">A metrics tree from north star to events</title>
+<desc id="i07-desc">The lesson's example metrics tree. At the top, the north star: weekly orders delivered. It splits into two outputs: active buyers this week, and orders per active buyer. Active buyers splits into two inputs: new buyers activated (first order within 7 days of sign-up) and returning buyers (ordered in the last 28 days). Orders per active buyer splits into listings available in the buyer's area and checkout completion rate. At the bottom, the events that measure the first two inputs: sign-up completed and first order placed; order placed and days since previous order.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .l{font-size:18px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .th{fill:var(--ill-highlight-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .tint{fill:var(--ill-accent,#DD614A);fill-opacity:.14}
+.ill .hl{fill:var(--ill-highlight,#FFF689)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .lm{fill:none;stroke:var(--ill-muted,#4A5466);stroke-width:2}
+.ill .la{fill:none;stroke:var(--ill-accent,#DD614A);stroke-width:2.5}
+.ill .w2{stroke-width:2}
+.ill .w3{stroke-width:3}
+.ill .d{stroke-dasharray:5 4}
+</style>
+
+<!-- Level labels -->
+<text x="16" y="22" class="s b m">North star</text>
+<text x="16" y="118" class="s b m">Outputs</text>
+<text x="16" y="206" class="s b m">Inputs</text>
+<text x="16" y="302" class="s b m">Events</text>
+
+<!-- Connectors -->
+<path d="M360,82 V102 H185 V124 M360,102 H535 V124" class="ln"/>
+<path d="M185,168 V190 H96 V212 M185,190 H272 V212" class="ln"/>
+<path d="M535,168 V190 H448 V212 M535,190 H624 V212" class="ln"/>
+<path d="M96,272 V306 M272,272 V306" class="ln d"/>
+
+<!-- North star -->
+<rect x="210" y="30" width="300" height="52" rx="10" class="acc"/>
+<text x="360" y="62" class="l b c ta">Weekly orders delivered</text>
+
+<!-- Outputs -->
+<rect x="65" y="124" width="240" height="44" rx="10" class="boxk"/>
+<text x="185" y="151" class="b c">Active buyers this week</text>
+<rect x="415" y="124" width="240" height="44" rx="10" class="boxk"/>
+<text x="535" y="151" class="b c">Orders per active buyer</text>
+
+<!-- Inputs -->
+<rect x="14" y="212" width="164" height="60" rx="10" class="box"/>
+<text x="96" y="237" class="s b c">New buyers activated</text>
+<text x="96" y="257" class="s m c">first order in 7 days</text>
+<rect x="190" y="212" width="164" height="60" rx="10" class="box"/>
+<text x="272" y="237" class="s b c">Returning buyers</text>
+<text x="272" y="257" class="s m c">ordered in last 28 days</text>
+<rect x="366" y="212" width="164" height="60" rx="10" class="box"/>
+<text x="448" y="237" class="s b c">Listings available</text>
+<text x="448" y="257" class="s m c">in buyer's area</text>
+<rect x="542" y="212" width="164" height="60" rx="10" class="box"/>
+<text x="624" y="237" class="s b c">Checkout</text>
+<text x="624" y="257" class="s m c">completion rate</text>
+
+<!-- Events -->
+<text x="96" y="326" class="s m c">sign-up completed</text>
+<text x="96" y="346" class="s m c">first order placed</text>
+<text x="272" y="326" class="s m c">order placed</text>
+<text x="272" y="346" class="s m c">days since previous order</text>
+</svg>

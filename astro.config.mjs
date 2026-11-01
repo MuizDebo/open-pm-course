@@ -1,9 +1,11 @@
 // @ts-check
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import sidebar from './src/sidebar.generated.mjs';
 import remarkCrossrefs from './src/plugins/remark-crossrefs.mjs';
 import rehypeNewTab from './src/plugins/rehype-new-tab.mjs';
+import remarkIllustrations from './src/plugins/remark-illustrations.mjs';
 
 // Change this once to your GitHub username. Everything else derives from it.
 const GITHUB_USER = 'MuizDebo';
@@ -21,7 +23,10 @@ export default defineConfig({
   site: `https://${GITHUB_USER}.github.io`,
   base: `/${REPO}`,
   markdown: {
-    remarkPlugins: [[remarkCrossrefs, { sidebar, base: `/${REPO}`, skipSlugs: NAV_PAGES }]],
+    remarkPlugins: [
+      [remarkIllustrations, { dir: fileURLToPath(new URL('./src/illustrations/', import.meta.url)) }],
+      [remarkCrossrefs, { sidebar, base: `/${REPO}`, skipSlugs: NAV_PAGES }],
+    ],
     rehypePlugins: [[rehypeNewTab, { skipSlugs: NAV_PAGES }]],
   },
   integrations: [
