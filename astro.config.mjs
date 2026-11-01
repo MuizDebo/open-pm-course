@@ -14,7 +14,7 @@ const REPO_URL = `https://github.com/${GITHUB_USER}/${REPO}`;
 
 // Analytics: paste your GoatCounter code here (the part before .goatcounter.com) to switch it on.
 // Empty means no analytics script is loaded at all. See src/content/docs/privacy.md.
-const GOATCOUNTER_CODE = '';
+const GOATCOUNTER_CODE = 'open-pm-course';
 
 // Pages that are navigation, not lessons: no auto cross-links, links open in the same tab.
 const NAV_PAGES = ['map', 'index'];
