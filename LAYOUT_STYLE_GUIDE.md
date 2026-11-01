@@ -79,6 +79,11 @@ Post a link to your artifact in this project's GitHub Discussions thread. Review
 - **Headings** start at `##`. The page title is the `#`.
 - **Asides** use Starlight syntax: `:::note`, `:::tip`, `:::caution`. Keep them rare.
 - **No images without alt text.** Store images under `src/assets/` and import them.
+- **Diagrams** are SVG files in `src/illustrations/`, placed with an ordinary image line:
+  `![Alt text describing the content](illustrations/I-01-name.svg "Caption.")`. The build
+  inlines them so they follow light and dark mode. Colour every shape and label through the
+  `--ill-*` variables with fallbacks (see any existing file), keep text at least 14px in a
+  720-wide viewBox, and leave the background transparent.
 - **Cross-references link themselves.** Refer to other parts of the course by number, such as
   "lesson 5.1.4", "project 3.2.5", "section 7.3", "pack 9.2" or "Course 7". The build turns
   these into links (see `src/plugins/remark-crossrefs.mjs`). Do not hand-write those links.
