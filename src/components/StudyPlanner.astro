@@ -217,6 +217,7 @@
 			a.click();
 			a.remove();
 			setTimeout(() => URL.revokeObjectURL(url), 1000);
+			(window as any).opmTrack?.('planner: download', `${plan.days.length} days, ${plan.weeks} weeks`);
 		});
 		refresh();
 	}

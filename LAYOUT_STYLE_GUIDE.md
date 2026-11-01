@@ -79,6 +79,10 @@ Post a link to your artifact in this project's GitHub Discussions thread. Review
 - **Headings** start at `##`. The page title is the `#`.
 - **Asides** use Starlight syntax: `:::note`, `:::tip`, `:::caution`. Keep them rare.
 - **No images without alt text.** Store images under `src/assets/` and import them.
+- **Cross-references link themselves.** Refer to other parts of the course by number, such as
+  "lesson 5.1.4", "project 3.2.5", "section 7.3", "pack 9.2" or "Course 7". The build turns
+  these into links (see `src/plugins/remark-crossrefs.mjs`). Do not hand-write those links.
+  Links in lesson content open in a new tab automatically.
 - **Inspiration stays internal.** The course borrows its shape from other open courses. That
   is for us to know, not for learners to read. Never name, link or compare to the courses or
   sites this one is modelled on in learner-facing text, including the landing page and the
