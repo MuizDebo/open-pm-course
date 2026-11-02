@@ -54,7 +54,7 @@ we think we can take 5 percent of the segment." Fast, easy to present, and only 
 the report, which was usually written to sell something.
 
 **Bottom-up** starts from units you can count or estimate. "There are about N registered
-small businesses; about a third accept digital payments; those process about M naira a month;
+small businesses; about a third accept digital payments; those process about M dollars a month;
 we charge a fee of P percent." Slower, uglier, and far more useful, because every number in
 the chain is a thing you can check and improve.
 

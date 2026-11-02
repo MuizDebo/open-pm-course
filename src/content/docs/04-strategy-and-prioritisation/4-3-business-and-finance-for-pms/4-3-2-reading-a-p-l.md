@@ -1,6 +1,6 @@
 ---
 title: "4.3.2 Reading a P&L"
-description: "How to read a profit and loss statement line by line, from revenue to net income, with a worked naira example showing which lines a PM's decisions move."
+description: "How to read a profit and loss statement line by line, from revenue to net income, with a worked dollar example showing which lines a PM's decisions move."
 ---
 
 ## Introduction
@@ -26,9 +26,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ## The Ledgerbox P&L
 
-Here is one month, in naira. All numbers are invented and match lesson 4.3.1.
+Here is one month, in US dollars. All numbers are invented and match lesson 4.3.1.
 
-| Line | ₦ |
+| Line | $ |
 | --- | ---: |
 | **Revenue** | **12,000,000** |
 | Hosting | 1,200,000 |
@@ -55,39 +55,40 @@ Here is one month, in naira. All numbers are invented and match lesson 4.3.1.
 Real P&Ls are laid out differently from company to company. Many do not show a contribution
 line at all. The logic underneath is the same.
 
-![A waterfall chart of Ledgerbox's month. Revenue of ₦12.0m, minus ₦3.0m cost of revenue, leaves ₦9.0m gross profit at 75 percent. Minus ₦4.0m of variable acquisition costs leaves ₦5.0m contribution at 42 percent. Minus ₦9.5m operating expenses leaves EBITDA of minus ₦4.5m. The cost of revenue and variable acquisition bars are highlighted as the costs product decisions move most directly.](illustrations/I-14-p-and-l-waterfall.svg "Ledgerbox's month as a waterfall: the two highlighted bars are where product decisions bite hardest.")
+![A waterfall chart of Ledgerbox's month. Revenue of $12,000, minus $3,000 cost of revenue, leaves $9,000 gross profit at 75 percent. Minus $4,000 of variable acquisition costs leaves $5,000 contribution at 42 percent. Minus $9,500 operating expenses leaves EBITDA of minus $4,500. The cost of revenue and variable acquisition bars are highlighted as the costs product decisions move most directly.](illustrations/I-14-p-and-l-waterfall.svg "Ledgerbox's month as a waterfall: the two highlighted bars are where product decisions bite hardest.")
 
 ## Revenue and cost of revenue
 
 **Revenue** is what customers paid for the period's service. For a subscription product it is
-close to MRR, here ₦12,000,000.
+close to MRR, here $12,000.
 
 **Cost of revenue**, also called cost of goods sold (COGS), is what it costs to deliver the
 product to existing customers. For software that means hosting, payment processing fees,
 messaging, and the support staff who answer customers. For an AI product it also means
 **model inference**: every call to a model costs money, as lesson 7.1.2 explains. Ledgerbox
-spends ₦3,000,000, which is ₦1,500 per customer, the cost to serve from lesson 4.3.1.
+spends $3,000, which is $1.50 per customer, the cost to serve from lesson 4.3.1.
 
-**Gross margin** is gross profit as a share of revenue: ₦9,000,000 ÷ ₦12,000,000 = 75
+**Gross margin** is gross profit as a share of revenue: $9,000 ÷ $12,000 = 75
 percent. Traditional software often runs at 70 to 85 percent. Products with heavy support,
-logistics or model costs run lower. One Nigerian trap: hosting and AI APIs are usually
-billed in dollars. When the naira weakens, cost of revenue jumps while your prices stay put.
+logistics or model costs run lower. One trap for products sold in Nigeria and other emerging markets: hosting and AI APIs are
+billed in dollars. If you charge customers in a local currency, a weaker local currency
+raises your cost of revenue while your prices stay put.
 
 ## Contribution margin
 
 **Contribution** subtracts the costs that rise with each new sale: here paid ads,
-commissions and referral bonuses, ₦4,000,000. What remains, ₦5,000,000 or about 42 percent
+commissions and referral bonuses, $4,000. What remains, $5,000 or about 42 percent
 of revenue, is what the business has left to pay for everything fixed. Companies define the
 line differently, so always ask what is in it.
 
 ## Operating expenses and EBITDA
 
 **Operating expenses** (opex) are the costs of running the company whatever the month's
-sales: salaries, rent, admin. Ledgerbox spends ₦9,500,000, most of it on people.
+sales: salaries, rent, admin. Ledgerbox spends $9,500, most of it on people.
 
 **EBITDA** means earnings before interest, tax, depreciation and amortisation. In plain
 words: profit from running the business, before the cost of borrowing, the tax bill, and
-the slow write-down of things bought earlier, like laptops. Ledgerbox's EBITDA is −₦4,500,000.
+the slow write-down of things bought earlier, like laptops. Ledgerbox's EBITDA is −$4,500.
 
 Leaders and investors quote EBITDA because it compares the core business across companies
 with different debts and tax positions. Be careful with it. Laptops, servers and loans are
@@ -96,21 +97,21 @@ money.
 
 ## Net income
 
-Take away depreciation (₦300,000), interest (₦200,000) and tax (none, on a loss) and you
-reach **net income**: −₦5,000,000. This is the bottom line people mean when they ask if a
+Take away depreciation ($300), interest ($200) and tax (none, on a loss) and you
+reach **net income**: −$5,000. This is the bottom line people mean when they ask if a
 company is profitable.
 
 ## Cash is not profit
 
 Profit follows accounting rules. Cash is money in the bank. They differ. If 50 customers
-prepay a year at ₦50,000, ₦2,500,000 arrives today, but only about ₦208,000 counts as this
+prepay a year at $50, $2,500 arrives today, but only about $208 counts as this
 month's revenue. A big client who pays 60 days late counts as revenue now and cash later. A
-laptop bought for ₦1,200,000 leaves the bank at once but reaches the P&L slowly, as
+laptop bought for $1,200 leaves the bank at once but reaches the P&L slowly, as
 depreciation.
 
 **Burn rate** is how much cash the company loses each month. Gross burn is all cash going
 out. Net burn is cash out minus cash in. Ledgerbox's net burn this month is about
-₦4,500,000. **Runway** is cash in the bank divided by net burn: with ₦54,000,000 banked,
+$4,500. **Runway** is cash in the bank divided by net burn: with $54,000 banked,
 twelve months. Runway is the number that keeps founders awake. If your roadmap needs
 eighteen months to pay off, it needs a plan for the six months it does not cover.
 
@@ -133,13 +134,13 @@ Forecasts are shared. Finance builds them; your roadmap is one of their main inp
 ## Two product decisions
 
 **Decision 1: an AI receipt scanner, free on every plan.** Half of customers, 1,000 of them,
-use it. Each scans about 40 receipts a month at roughly ₦10 of inference per scan. That adds
-₦400,000 to cost of revenue. Gross margin falls to 71.7 percent. The benefit, if any, shows
-up later as lower churn. If you sold the scanner instead as a ₦1,000 add-on and 400
-customers bought it, revenue would rise by ₦400,000 and inference would cost ₦160,000.
+use it. Each scans about 40 receipts a month at roughly $0.01 of inference per scan. That adds
+$400 to cost of revenue. Gross margin falls to 71.7 percent. The benefit, if any, shows
+up later as lower churn. If you sold the scanner instead as a $1 add-on and 400
+customers bought it, revenue would rise by $400 and inference would cost $160.
 
 **Decision 2: in-app help and guided setup.** Support tickets fall by 40 percent, so the
-support line drops from ₦1,000,000 to ₦600,000. Gross margin rises to 78.3 percent.
+support line drops from $1,000 to $600. Gross margin rises to 78.3 percent.
 
 | Line | Today | Decision 1 | Decision 2 |
 | --- | ---: | ---: | ---: |

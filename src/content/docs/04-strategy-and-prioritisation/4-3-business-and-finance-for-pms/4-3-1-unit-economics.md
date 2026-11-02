@@ -28,27 +28,27 @@ This section contains a general overview of topics that you will learn in this l
 
 This lesson and lesson 4.3.2 share one invented product. Call it Ledgerbox: a bookkeeping
 app for small Nigerian businesses, sold as a monthly subscription. The basic plan costs
-₦5,000 a month and the team plan ₦15,000. It has 2,000 paying customers: 1,800 on basic and
+$5 a month and the team plan $15. It has 2,000 paying customers: 1,800 on basic and
 200 on team. Every number below is made up and rounded so the arithmetic is easy to follow.
 
 ## ARPU, MRR and ARR
 
 **Monthly recurring revenue (MRR)** is the subscription revenue you can count on each month.
-For Ledgerbox that is 1,800 × ₦5,000 plus 200 × ₦15,000, which is ₦12,000,000. **Annual
-recurring revenue (ARR)** is MRR × 12, so ₦144 million. Only recurring revenue counts.
+For Ledgerbox that is 1,800 × $5 plus 200 × $15, which is $12,000. **Annual
+recurring revenue (ARR)** is MRR × 12, so $144,000. Only recurring revenue counts.
 One-off setup fees and training do not.
 
-**Average revenue per user (ARPU)** is MRR divided by paying customers: ₦12,000,000 ÷ 2,000
-= ₦6,000. Some companies divide by all users, free ones included, so ask.
+**Average revenue per user (ARPU)** is MRR divided by paying customers: $12,000 ÷ 2,000
+= $6. Some companies divide by all users, free ones included, so ask.
 
 *What moves it:* pricing, packaging, the mix of plans and add-ons. Move 100 basic customers
-to the team plan and ARPU rises by ₦500. Discounts to close deals pull it down.
+to the team plan and ARPU rises by $0.50. Discounts to close deals pull it down.
 
 ## Customer acquisition cost
 
 Last month Ledgerbox spent this on winning customers:
 
-| Cost | ₦ |
+| Cost | $ |
 | --- | ---: |
 | Paid ads | 3,000,000 |
 | Sales team salaries | 1,500,000 |
@@ -59,12 +59,12 @@ Last month Ledgerbox spent this on winning customers:
 
 It won 200 new paying customers, 80 of them from ads. That gives three different CACs.
 
-- **Paid CAC** is ad spend ÷ customers from ads: ₦3,000,000 ÷ 80 = ₦37,500. It tells you
+- **Paid CAC** is ad spend ÷ customers from ads: $3,000 ÷ 80 = $37.50. It tells you
   whether the ads work.
-- **Blended CAC** is ad spend ÷ all new customers: ₦3,000,000 ÷ 200 = ₦15,000. It flatters,
+- **Blended CAC** is ad spend ÷ all new customers: $3,000 ÷ 200 = $15. It flatters,
   because free referrals and word of mouth make the ads look cheap.
-- **Fully loaded CAC** is every acquisition cost ÷ all new customers: ₦6,000,000 ÷ 200 =
-  ₦30,000. Use this one for the ratios below.
+- **Fully loaded CAC** is every acquisition cost ÷ all new customers: $6,000 ÷ 200 =
+  $30. Use this one for the ratios below.
 
 *What moves it:* activation and onboarding (more sign-ups become paying customers for the
 same spend), referral features, trial length, a shorter sign-up flow, and which segment you
@@ -73,8 +73,8 @@ target.
 ## Gross margin per customer
 
 Before LTV you need what each customer costs to serve each month. For Ledgerbox: hosting
-₦600, payment fees ₦150, WhatsApp and SMS reminders ₦250, and customer support ₦500. That is
-₦1,500. Gross profit per customer is ₦6,000 − ₦1,500 = ₦4,500 a month, a gross margin of 75
+$0.60, payment fees $0.15, WhatsApp and SMS reminders $0.25, and customer support $0.50. That is
+$1.50. Gross profit per customer is $6 − $1.50 = $4.50 a month, a gross margin of 75
 percent. Lesson 4.3.2 covers margin in full.
 
 *What moves it:* any feature with a running cost. Reminders by SMS, a support-heavy flow, an
@@ -85,26 +85,26 @@ AI feature that calls a model every time it is used.
 The simple formula is ARPU × gross margin ÷ monthly churn. Ledgerbox loses 4 percent of
 customers a month, so:
 
-> LTV = ₦6,000 × 0.75 ÷ 0.04 = ₦4,500 ÷ 0.04 = ₦112,500
+> LTV = $6 × 0.75 ÷ 0.04 = $4.50 ÷ 0.04 = $112.50
 
 Dividing by churn gives the average lifetime: 1 ÷ 0.04 = 25 months.
 
 Be honest about how weak this number is early on. A product that is eight months old has
 never had a 25-month customer, and the formula assumes churn stays flat, which it rarely
-does. Small changes swing it hard: at 3 percent churn LTV is ₦150,000,
-at 5 percent it is ₦90,000. Quote LTV as a range, not a fact.
+does. Small changes swing it hard: at 3 percent churn LTV is $150,
+at 5 percent it is $90. Quote LTV as a range, not a fact.
 
 *What moves it:* retention work above all, then price and margin.
 
 ## LTV:CAC and payback
 
-**LTV:CAC** is ₦112,500 ÷ ₦30,000 = 3.75. Lesson 1.2.3 gave you the rough rule of at least 3.
+**LTV:CAC** is $112.50 ÷ $30 = 3.75. Lesson 1.2.3 gave you the rough rule of at least 3.
 
-**Payback period** is how many months of gross profit it takes to earn back CAC: ₦30,000 ÷
-₦4,500 = 6.7 months. Payback is more trustworthy early, because customers only need to stay
+**Payback period** is how many months of gross profit it takes to earn back CAC: $30 ÷
+$4.50 = 6.7 months. Payback is more trustworthy early, because customers only need to stay
 seven months, not twenty-five.
 
-![A line chart of one Ledgerbox customer's running position over 12 months. It starts at minus ₦30,000, the fully loaded CAC, rises by ₦4,500 of gross profit each month, crosses zero at 6.7 months, and reaches plus ₦24,000 at month 12.](illustrations/I-13-payback-period.svg "Each new customer puts Ledgerbox ₦30,000 in the hole; ₦4,500 of gross profit a month climbs out in 6.7 months.")
+![A line chart of one Ledgerbox customer's running position over 12 months. It starts at minus $30, the fully loaded CAC, rises by $4.50 of gross profit each month, crosses zero at 6.7 months, and reaches plus $24 at month 12.](illustrations/I-13-payback-period.svg "Each new customer puts Ledgerbox $30 in the hole; $4.50 of gross profit a month climbs out in 6.7 months.")
 
 Payback also explains why fast growth eats cash: the faster you sign customers, the deeper
 the hole before it fills.
@@ -117,9 +117,9 @@ day one.
 Last month 80 of Ledgerbox's 2,000 customers cancelled. That is **customer churn**, also
 called logo churn: 80 ÷ 2,000 = 4 percent.
 
-Those 80 were mostly small accounts, worth ₦320,000 of MRR. Another 30 customers downgraded,
-losing ₦100,000 (this is called contraction). **Gross revenue churn** is (₦320,000 +
-₦100,000) ÷ ₦12,000,000 = 3.5 percent. Customer churn tells you how many left. Revenue churn
+Those 80 were mostly small accounts, worth $320 of MRR. Another 30 customers downgraded,
+losing $100 (this is called contraction). **Gross revenue churn** is ($320 +
+$100) ÷ $12,000 = 3.5 percent. Customer churn tells you how many left. Revenue churn
 tells you how much it hurt. If revenue churn is the higher one, your biggest customers are
 leaving.
 
@@ -140,8 +140,8 @@ count out:
 
 > NRR = (starting MRR + expansion − contraction − churned MRR) ÷ starting MRR
 
-Last month 150 Ledgerbox customers upgraded or added users, worth ₦300,000. So NRR is
-(₦12,000,000 + ₦300,000 − ₦100,000 − ₦320,000) ÷ ₦12,000,000 = 99 percent. If that held
+Last month 150 Ledgerbox customers upgraded or added users, worth $300. So NRR is
+($12,000 + $300 − $100 − $320) ÷ $12,000 = 99 percent. If that held
 every month, a year later the same customers would bring in about 89 percent of their
 starting revenue.
 

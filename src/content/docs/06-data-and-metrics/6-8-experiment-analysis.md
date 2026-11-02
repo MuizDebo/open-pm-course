@@ -34,7 +34,7 @@ row per user, with these columns:
 | `country` | `NG`, `GH`, `KE` or `ZA` |
 | `activated` | 1 if the user completed their first transfer within 30 days, else 0 |
 | `orders_30d` | Number of transfers in the 30 days |
-| `revenue_30d` | Fee revenue from those transfers, in naira |
+| `revenue_30d` | Fee revenue from those transfers, in US dollars |
 
 The product team's hypothesis was that the new flow would raise activation. Revenue is the
 metric leadership cares about.

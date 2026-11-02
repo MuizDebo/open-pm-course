@@ -84,7 +84,7 @@ ones above them.
 
 Here is the argument that organises this whole course. Growth is how many people come in.
 Retention is how many stay. A product with strong growth and weak retention is a bucket
-with a hole: every marketing naira pours in the top and leaks out the bottom, and the leak
+with a hole: every marketing dollar pours in the top and leaks out the bottom, and the leak
 grows with the bucket. A product with weak growth and strong retention is small and
 healthy, and growth can be bought later.
 

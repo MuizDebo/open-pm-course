@@ -61,6 +61,7 @@ for (let i = 1; i <= N; i++) {
     orders = 1 + Math.floor(rand() * 4);
     for (let o = 0; o < orders; o++) revenue += 400 + Math.floor(rand() * 2200);
     if (device === 'desktop') revenue = Math.round(revenue * 1.25);
+    revenue = Math.round(revenue / 10) / 100; // fee revenue in US dollars
   }
   rows.push([`u${String(i).padStart(5, '0')}`, date, week, variant, device, country, activated, orders, revenue]);
 }

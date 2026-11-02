@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="i13-title i13-desc">
 <title id="i13-title">Payback period for one Ledgerbox customer</title>
-<desc id="i13-desc">A line chart of one customer's running position over 12 months, using the lesson's Ledgerbox example. At month 0 the position is minus ₦30,000, the fully loaded CAC. Each month the customer adds ₦4,500 of gross profit, so the line rises steadily, crosses zero at 6.7 months, which is the payback point, and reaches plus ₦24,000 at month 12. The area below zero is labelled "still paying back CAC".</desc>
+<desc id="i13-desc">A line chart of one customer's running position over 12 months, using the lesson's Ledgerbox example. At month 0 the position is minus $30, the fully loaded CAC. Each month the customer adds $4.50 of gross profit, so the line rises steadily, crosses zero at 6.7 months, which is the payback point, and reaches plus $24 at month 12. The area below zero is labelled "still paying back CAC".</desc>
 <style>
 .ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
 .ill .s{font-size:14px}
@@ -26,16 +26,16 @@
 
 <!-- Below-zero zone: still paying back CAC -->
 <rect x="114" y="160" width="576" height="120" class="soft" fill-opacity=".45"/>
-<text x="684" y="270" class="s m e">Below ₦0: still paying back CAC</text>
+<text x="684" y="270" class="s m e">Below $0: still paying back CAC</text>
 
-<!-- Gridlines and y labels (scale: ₦15,000 = 60px, zero at y=160) -->
+<!-- Gridlines and y labels (scale: $15 = 60px, zero at y=160) -->
 <path d="M114,40 H690 M114,100 H690 M114,220 H690 M114,280 H690" class="ln d"/>
 <path d="M114,160 H690" class="lk"/>
-<text x="104" y="45" class="s m e">+₦30,000</text>
-<text x="104" y="105" class="s m e">+₦15,000</text>
-<text x="104" y="165" class="s b e">₦0</text>
-<text x="104" y="225" class="s m e">−₦15,000</text>
-<text x="104" y="285" class="s m e">−₦30,000</text>
+<text x="104" y="45" class="s m e">+$30</text>
+<text x="104" y="105" class="s m e">+$15</text>
+<text x="104" y="165" class="s b e">$0</text>
+<text x="104" y="225" class="s m e">−$15</text>
+<text x="104" y="285" class="s m e">−$30</text>
 
 <!-- x axis ticks: 48px per month from x=114 -->
 <path d="M114,280 V288 M258,280 V288 M402,280 V288 M546,280 V288 M690,280 V288" class="lk"/>
@@ -58,8 +58,8 @@
 <text x="348" y="129" class="b c ta">Payback: 6.7 months</text>
 
 <!-- Annotations -->
-<text x="200" y="272" class="s b">CAC: −₦30,000</text>
-<text x="684" y="54" class="s b e">+₦24,000 at month 12</text>
-<text x="126" y="192" class="s m">+₦4,500 gross profit</text>
+<text x="200" y="272" class="s b">CAC: −$30</text>
+<text x="684" y="54" class="s b e">+$24 at month 12</text>
+<text x="126" y="192" class="s m">+$4.50 gross profit</text>
 <text x="126" y="210" class="s m">each month</text>
 </svg>
