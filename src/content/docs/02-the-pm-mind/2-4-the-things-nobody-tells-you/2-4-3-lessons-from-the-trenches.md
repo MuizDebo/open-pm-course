@@ -1,20 +1,24 @@
 ---
 title: "2.4.3 Lessons from the trenches"
-description: "The course author's own account of what went wrong in real product work, and what it taught. First person, no tidying."
+description: "Experienced product managers, in their own words, on what went wrong in real product work and what it taught them. First person, no tidying."
 ---
 
 ## Introduction
 
 :::caution[Draft]
-This lesson is waiting on the author's own stories. The frame below shows what it will hold.
-Each marked section is a placeholder for a real episode from the author's product work,
-told in the first person. Nothing in those sections will be invented or ghost-written.
+This lesson is collecting its stories. The frame below shows what it will hold. Each
+marked section is a placeholder for a real episode from an experienced product manager's
+work, told in the first person and credited to them. Nothing in those sections will be
+invented or ghost-written. If you are an experienced PM with a story to contribute, open an
+issue in the [repository](https://github.com/MuizDebo/open-pm-course/issues/new) titled
+"Story for 2.4.3".
 :::
 
 Every other lesson in this course is written in the voice of the course: measured, sourced,
 in the second person. This one is different on purpose. It is written in the first person,
-by the person who built this course, about things that went wrong in their own product
-work. Names are changed. The mistakes are not.
+by experienced product managers, the course's author among them, about things that went
+wrong in their own product work. Each story is credited to the person who lived it. Company
+names are changed where they need to be. The mistakes are not.
 
 Why it belongs here. Most of what you have read about product management, in this course
 and everywhere else, is written after the fact by people who now know the answer. The
@@ -39,33 +43,33 @@ This section contains a general overview of topics that you will learn in this l
 
 ## The stories
 
-:::tip[Author's story goes here]
+:::tip[Story goes here]
 **A launch that failed.** Something that shipped on time, with a team that worked hard, and
 did not do what it was supposed to for the people it was built for. What was the decision
 that made it inevitable, when was it made, and what was known at the time? What did the
 retrospective say, and what did it leave out?
 :::
 
-:::tip[Author's story goes here]
+:::tip[Story goes here]
 **A time I was overruled and was right.** The call went the other way, the result bore out
 the original position, and the question is what to do with that. How was the disagreement
 handled at the time? What would a better version of me have done differently in the room,
 rather than afterwards?
 :::
 
-:::tip[Author's story goes here]
+:::tip[Story goes here]
 **A time I was overruled and was wrong.** The harder one to tell. The reasoning that felt
 solid, the thing the other person saw that I did not, and how long it took to admit it.
 Lesson 2.1.4 is about this in general; this is the specific.
 :::
 
-:::tip[Author's story goes here]
+:::tip[Story goes here]
 **The stakeholder I handled badly.** A relationship that went wrong because of something I
 did or failed to do: a promise, an assumption, a conversation avoided. What it cost the
 product, and what I now do differently with people like that.
 :::
 
-:::tip[Author's story goes here]
+:::tip[Story goes here]
 **The decision I would reverse.** If one call could be taken back, which one, why, and what
 the honest reason for making it was at the time. Not the reason given in the document. The
 real one.

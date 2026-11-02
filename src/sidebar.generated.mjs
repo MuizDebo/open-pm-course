@@ -363,6 +363,27 @@ export default [
             }
           }
         ]
+      },
+      {
+        "label": "4.3 Business and finance for PMs",
+        "collapsed": true,
+        "items": [
+          {
+            "label": "4.3.1 Unit economics",
+            "slug": "04-strategy-and-prioritisation/4-3-business-and-finance-for-pms/4-3-1-unit-economics"
+          },
+          {
+            "label": "4.3.2 Reading a P&L",
+            "slug": "04-strategy-and-prioritisation/4-3-business-and-finance-for-pms/4-3-2-reading-a-p-l"
+          },
+          {
+            "label": "4.3.3 Unit economics model",
+            "slug": "04-strategy-and-prioritisation/4-3-business-and-finance-for-pms/4-3-3-unit-economics-model",
+            "attrs": {
+              "data-type": "project"
+            }
+          }
+        ]
       }
     ]
   },

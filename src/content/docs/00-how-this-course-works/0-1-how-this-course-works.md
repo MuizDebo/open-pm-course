@@ -55,14 +55,14 @@ earlier ones.
 | 1 Foundations | What a PM does, the product lifecycle, the people around you. | 3 |
 | 2 The PM mind | Accountability, decisions under uncertainty, communication, the hard parts. | 3 |
 | 3 Discovery and research | Framing problems, talking to users, sizing markets. | 3 |
-| 4 Strategy and prioritisation | Vision, narrative, goals, roadmaps, saying no with a framework. | 3 |
+| 4 Strategy and prioritisation | Vision, narrative, goals, roadmaps, saying no with a framework, and the business numbers behind them. | 4 |
 | 5 Definition and delivery | Specs, working with engineering and design, shipping. | 4 |
 | 6 Data and metrics | Metrics that matter, experiments, dashboards. | 2 |
 | 7 AI product management | How models work, where AI belongs, designing for uncertainty, evals. | 5 |
 | 8 Career | Ladders, portfolios, networking, interviews, negotiation. | 3 |
 | 9 Capstone | One product, end to end, every artifact. | 3 |
 
-Thirty weeks at eight to ten focused hours a week. The full map, with every lesson and
+Thirty-one weeks at eight to ten focused hours a week. The full map, with every lesson and
 project named, is in
 [CURRICULUM.md](https://github.com/MuizDebo/open-pm-course/blob/main/CURRICULUM.md) in the
 repository.

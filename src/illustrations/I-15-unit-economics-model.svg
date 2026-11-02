@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 340" width="720" height="340" role="img" aria-labelledby="i15-title i15-desc">
+<title id="i15-title">The shape of the unit economics model</title>
+<desc id="i15-desc">Five parts of the project's spreadsheet and how they connect. The Assumptions tab, highlighted, holds inputs only, each with a value, unit and source. It feeds the Unit economics tab (ARPU, CAC, margin, churn, LTV and payback), which feeds the 12-month projection (a cohort or MRR, month by month). The Assumptions tab also feeds the Sensitivity check, which makes each input 20 percent worse, one at a time, and ranks the effect on the Unit economics outputs. The projection and the sensitivity check both feed the Memo, which names the roadmap item that most improves the economics.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .ink{fill:var(--ill-ink,#0D0630)}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .d{stroke-dasharray:5 4}
+</style>
+<defs>
+<marker id="i15-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="ink"/></marker>
+</defs>
+
+<!-- Arrows -->
+<path d="M216,90 H256" class="lk" marker-end="url(#i15-a)"/>
+<path d="M460,90 H500" class="lk" marker-end="url(#i15-a)"/>
+<path d="M116,140 V270 H256" class="lk d" marker-end="url(#i15-a)"/>
+<path d="M360,218 V144" class="lk d" marker-end="url(#i15-a)"/>
+<path d="M604,140 V216" class="lk" marker-end="url(#i15-a)"/>
+<path d="M460,270 H500" class="lk" marker-end="url(#i15-a)"/>
+<text x="128" y="232" class="s m">20% worse,</text>
+<text x="128" y="250" class="s m">one at a time</text>
+<text x="370" y="186" class="s m">re-read</text>
+<text x="370" y="204" class="s m">outputs</text>
+
+<!-- Row 1 -->
+<rect x="16" y="40" width="200" height="100" rx="10" class="acc"/>
+<text x="116" y="74" class="b c ta">Assumptions</text>
+<text x="116" y="98" class="s c ta">Inputs only</text>
+<text x="116" y="118" class="s c ta">value, unit, source</text>
+
+<rect x="260" y="40" width="200" height="100" rx="10" class="boxk"/>
+<text x="360" y="74" class="b c">Unit economics</text>
+<text x="360" y="98" class="s c">ARPU, CAC, margin,</text>
+<text x="360" y="118" class="s c">churn, LTV, payback</text>
+
+<rect x="504" y="40" width="200" height="100" rx="10" class="boxk"/>
+<text x="604" y="74" class="b c">12-month projection</text>
+<text x="604" y="98" class="s c">cohort or MRR,</text>
+<text x="604" y="118" class="s c">month by month</text>
+
+<!-- Row 2 -->
+<rect x="260" y="220" width="200" height="100" rx="10" class="boxk"/>
+<text x="360" y="254" class="b c">Sensitivity check</text>
+<text x="360" y="278" class="s c">rank which input</text>
+<text x="360" y="298" class="s c">moves the answer most</text>
+
+<rect x="504" y="220" width="200" height="100" rx="10" class="soft"/>
+<text x="604" y="254" class="b c">Memo</text>
+<text x="604" y="278" class="s c">the roadmap item that</text>
+<text x="604" y="298" class="s c">most improves the model</text>
+</svg>

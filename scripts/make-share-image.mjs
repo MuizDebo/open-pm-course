@@ -46,7 +46,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" v
     <tspan x="80" y="414">to AI product management.</tspan>
   </text>
 
-  <text x="80" y="490" font-family="${FONT}" font-size="28" font-weight="600" fill="${CORAL}">10 courses · 108 lessons · 29 projects</text>
+  <text x="80" y="490" font-family="${FONT}" font-size="28" font-weight="600" fill="${CORAL}">10 courses · 111 lessons · 30 projects</text>
   <text x="80" y="560" font-family="${FONT}" font-size="24" fill="${MUTED}">muizdebo.github.io/open-pm-course</text>
 
   ${box(930, 150, 'Discover', false)}

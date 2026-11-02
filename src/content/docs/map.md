@@ -115,6 +115,12 @@ Items marked *draft* are outlined but not yet written. Pick one up in
 - [4.2.4 Planning rituals](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-4-planning-rituals/)
 - [4.2.5 Strategy pack](/open-pm-course/04-strategy-and-prioritisation/4-2-goals-and-roadmaps/4-2-5-strategy-pack/) **Project**
 
+### 4.3 Business and finance for PMs
+
+- [4.3.1 Unit economics](/open-pm-course/04-strategy-and-prioritisation/4-3-business-and-finance-for-pms/4-3-1-unit-economics/)
+- [4.3.2 Reading a P&L](/open-pm-course/04-strategy-and-prioritisation/4-3-business-and-finance-for-pms/4-3-2-reading-a-p-l/)
+- [4.3.3 Unit economics model](/open-pm-course/04-strategy-and-prioritisation/4-3-business-and-finance-for-pms/4-3-3-unit-economics-model/) **Project**
+
 ## 5 · Definition and delivery
 
 ### 5.1 Writing it down

@@ -5,7 +5,7 @@ product management. Read the lessons, do the projects, submit your work, learn i
 
 **Site:** https://muizdebo.github.io/open-pm-course/
 
-**Status:** all ten courses written: 108 lessons and 29 projects. One lesson, 2.4.3 Lessons from the trenches, awaits the author's own stories. See [CURRICULUM.md](CURRICULUM.md) and the [course map](https://muizdebo.github.io/open-pm-course/map/).
+**Status:** all ten courses written: 111 lessons and 30 projects. One lesson, 2.4.3 Lessons from the trenches, is collecting first-person stories from experienced product managers. See [CURRICULUM.md](CURRICULUM.md) and the [course map](https://muizdebo.github.io/open-pm-course/map/).
 
 ## Settled decisions
 

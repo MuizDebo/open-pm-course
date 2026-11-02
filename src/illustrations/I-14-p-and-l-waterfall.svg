@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ill" viewBox="0 0 720 440" width="720" height="440" role="img" aria-labelledby="i14-title i14-desc">
+<title id="i14-title">Ledgerbox's monthly P&amp;L as a waterfall</title>
+<desc id="i14-desc">A waterfall chart of one month of the lesson's Ledgerbox example, in naira. Revenue is ₦12.0m. Cost of revenue takes away ₦3.0m, leaving gross profit of ₦9.0m, a 75 percent gross margin. Variable acquisition costs (paid ads, sales commissions and referral bonuses) take away ₦4.0m, leaving contribution of ₦5.0m, about 42 percent. Operating expenses take away ₦9.5m, leaving EBITDA of minus ₦4.5m. The cost of revenue and variable acquisition bars are highlighted as the costs product decisions move most directly.</desc>
+<style>
+.ill text{font-family:Inter,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;fill:var(--ill-ink,#0D0630)}
+.ill .s{font-size:14px}
+.ill .b{font-weight:600}
+.ill .c{text-anchor:middle}
+.ill .e{text-anchor:end}
+.ill .m{fill:var(--ill-muted,#4A5466)}
+.ill .ta{fill:var(--ill-accent-text,#0D0630)}
+.ill .box{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .boxk{fill:var(--ill-surface,#FFFFFF);stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .soft{fill:var(--ill-soft,#BBDEF0)}
+.ill .acc{fill:var(--ill-accent,#DD614A)}
+.ill .ln{fill:none;stroke:var(--ill-line,#B0C2CE);stroke-width:1.5}
+.ill .lk{fill:none;stroke:var(--ill-ink,#0D0630);stroke-width:1.5}
+.ill .d{stroke-dasharray:5 4}
+</style>
+
+<!-- Legend -->
+<rect x="430" y="18" width="18" height="18" rx="3" class="acc"/>
+<text x="456" y="32" class="s">Costs product decisions move most</text>
+<rect x="430" y="46" width="18" height="18" rx="3" class="soft"/>
+<text x="456" y="60" class="s">What is left at each step</text>
+<rect x="430" y="74" width="18" height="18" rx="3" class="box"/>
+<text x="456" y="88" class="s">Other costs</text>
+
+<!-- Zero line: y=280; scale 20px per ₦1m -->
+<path d="M16,280 H704" class="lk"/>
+<text x="704" y="274" class="s m e">₦0</text>
+
+<!-- Connectors between bars -->
+<path d="M94,40 H122 M192,100 H220 M290,100 H318 M388,180 H416 M486,180 H514 M584,370 H612" class="ln d"/>
+
+<!-- 1 Revenue: 0 to 12.0 -->
+<rect x="24" y="40" width="70" height="240" class="soft"/>
+<text x="59" y="32" class="s b c">₦12.0m</text>
+
+<!-- 2 Cost of revenue: 12.0 to 9.0 -->
+<rect x="122" y="40" width="70" height="60" class="acc"/>
+<text x="157" y="32" class="s b c">−₦3.0m</text>
+
+<!-- 3 Gross profit: 0 to 9.0 -->
+<rect x="220" y="100" width="70" height="180" class="soft"/>
+<text x="255" y="92" class="s b c">₦9.0m</text>
+
+<!-- 4 Variable acquisition: 9.0 to 5.0 -->
+<rect x="318" y="100" width="70" height="80" class="acc"/>
+<text x="353" y="92" class="s b c">−₦4.0m</text>
+
+<!-- 5 Contribution: 0 to 5.0 -->
+<rect x="416" y="180" width="70" height="100" class="soft"/>
+<text x="451" y="172" class="s b c">₦5.0m</text>
+
+<!-- 6 Operating expenses: 5.0 to -4.5 -->
+<rect x="514" y="180" width="70" height="190" class="box"/>
+<text x="549" y="172" class="s b c">−₦9.5m</text>
+
+<!-- 7 EBITDA: -4.5 to 0 -->
+<rect x="612" y="280" width="70" height="90" class="soft"/>
+<text x="647" y="272" class="s b c">−₦4.5m</text>
+
+<!-- Category labels -->
+<text x="59" y="396" class="s c">Revenue</text>
+<text x="157" y="396" class="s c">Cost of</text>
+<text x="157" y="414" class="s c">revenue</text>
+<text x="255" y="396" class="s c">Gross profit</text>
+<text x="255" y="414" class="s m c">75%</text>
+<text x="353" y="396" class="s c">Variable</text>
+<text x="353" y="414" class="s c">acquisition</text>
+<text x="451" y="396" class="s c">Contribution</text>
+<text x="451" y="414" class="s m c">42%</text>
+<text x="549" y="396" class="s c">Operating</text>
+<text x="549" y="414" class="s c">expenses</text>
+<text x="647" y="396" class="s c">EBITDA</text>
+</svg>

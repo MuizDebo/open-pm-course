@@ -102,7 +102,7 @@ you owe to it.
 |---|---|---|---|
 | 2.4.1 | Lesson | Imposter syndrome and the PM | Why it hits PMs hard and what helps. `[OWN]` |
 | 2.4.2 | Lesson | Burnout, context switching and the always-on trap | Protecting attention. `[OWN]` |
-| 2.4.3 | Lesson | Lessons from the trenches | The author's own account of what went wrong and what it taught. Written in first person. `[OWN]` |
+| 2.4.3 | Lesson | Lessons from the trenches | Experienced PMs, the author among them, on what went wrong and what it taught them. First person, credited. `[OWN]` |
 | 2.4.4 | Lesson | Ethics and the PM | Dark patterns, privacy, who you are optimising for. `[CT]` session 7 |
 | 2.4.5 | Project | Letter to your past self | 500 to 800 words. What you wish you had known. Public submissions become a shared reading list. |
 
@@ -140,7 +140,7 @@ you owe to it.
 
 ---
 
-## Course 4 · Strategy and prioritisation (3 weeks)
+## Course 4 · Strategy and prioritisation (4 weeks)
 
 ### Section 4.1 · Strategy
 
@@ -160,6 +160,14 @@ you owe to it.
 | 4.2.3 | Lesson | Prioritisation frameworks | RICE, ICE, Kano, weighted scoring, and when to ignore all of them. `[PH]` `[CT]` session 4 |
 | 4.2.4 | Lesson | Planning rituals | Quarterly planning, W planning, DACI decisions. `[RVD]` |
 | 4.2.5 | Project | Strategy pack | Goals sheet, prioritised feature list, Now/Next/Later roadmap for your product. `[CT]` homework 4 and 5 |
+
+### Section 4.3 · Business and finance for PMs
+
+| # | Type | Title | Notes |
+|---|---|---|---|
+| 4.3.1 | Lesson | Unit economics | LTV, CAC, payback period, ARPU, churn (customers lost versus revenue lost), net revenue retention, and how product decisions move each. `[OWN]` |
+| 4.3.2 | Lesson | Reading a P&L | Revenue, gross margin, contribution margin, EBITDA, burn and runway. What a PM owns and what finance owns. A worked example in naira. `[OWN]` |
+| 4.3.3 | Project | Unit economics model | A spreadsheet model of your product: CAC, LTV, payback and margin, with a sensitivity check on the assumptions your roadmap depends on. |
 
 ---
 
@@ -349,15 +357,15 @@ AI threads through earlier courses as side notes. This course goes deep.
 | 1 Foundations | 10 | 3 | 3 |
 | 2 The PM mind | 16 | 3 | 3 |
 | 3 Discovery and research | 10 | 3 | 3 |
-| 4 Strategy and prioritisation | 7 | 2 | 3 |
+| 4 Strategy and prioritisation | 9 | 3 | 4 |
 | 5 Definition and delivery | 14 | 4 | 4 |
 | 6 Data and metrics | 6 | 2 | 2 |
 | 7 AI product management | 26 | 4 | 5 |
 | 8 Career | 14 | 2 | 3 |
 | 9 Capstone | 2 | 6 | 3 |
-| **Total** | **109** | **29** | **~30** |
+| **Total** | **111** | **30** | **~31** |
 
-Thirty weeks at 8 to 10 hours a week. A learner who skips the capstone and takes only one
+Thirty-one weeks at 8 to 10 hours a week. A learner who skips the capstone and takes only one
 project per course finishes in about 20.
 
 ## Open questions for the author
