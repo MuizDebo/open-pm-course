@@ -1,4 +1,4 @@
-# Open Product Management Course
+# The Open Product Management Course (TOPM)
 
 A free, open-source curriculum for becoming a product manager, from first principles to AI
 product management. Read the lessons, do the projects, submit your work, learn in public.

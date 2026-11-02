@@ -72,9 +72,9 @@
 		const summary = form.querySelector('[data-summary]') as HTMLElement;
 		const googleLink = form.querySelector('[data-google]') as HTMLAnchorElement;
 		const DAY_INDEX: Record<string, number> = { SU: 0, MO: 1, TU: 2, WE: 3, TH: 4, FR: 5, SA: 6 };
-		const TITLE = 'Open PM Course: study block';
+		const TITLE = 'TOPM: study block';
 		const DESCRIPTION =
-			'Your weekly study block for the Open Product Management Course. ' +
+			'Your weekly study block for The Open Product Management Course (TOPM). ' +
 			'Pick up where you left off: https://muizdebo.github.io/open-pm-course/';
 
 		// Default the start date to next Monday.
@@ -138,7 +138,7 @@
 			const lines = [
 				'BEGIN:VCALENDAR',
 				'VERSION:2.0',
-				'PRODID:-//Open PM Course//Study Planner//EN',
+				'PRODID:-//TOPM//Study Planner//EN',
 				'CALSCALE:GREGORIAN',
 				'METHOD:PUBLISH',
 				'BEGIN:VEVENT',

@@ -1,6 +1,6 @@
 # Curriculum map
 
-This is the master outline for the Open Product Management Course. Every lesson and project
+This is the master outline for the Open Product Management Course (TOPM). Every lesson and project
 below becomes one Markdown file under `src/content/docs/`. A path is made of courses, a
 course of sections, a section of lessons and projects.
 

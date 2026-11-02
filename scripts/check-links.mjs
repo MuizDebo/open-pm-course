@@ -70,24 +70,29 @@ async function fetchStatus(url) {
     });
     return { status: res.status };
   } catch (e) {
-    return { error: e.name === 'AbortError' ? 'timeout' : e.message };
+    const code = e.cause?.code;
+    return { error: e.name === 'AbortError' ? 'timeout' : code ?? e.message, gone: code === 'ENOTFOUND' };
   } finally {
     clearTimeout(timer);
   }
 }
 
+// Only proof that a page is gone fails the run: 404, 410, or a domain that no longer resolves,
+// seen twice. Anything else (403, 429, 5xx, timeouts) usually means the site is refusing
+// automated requests from data-centre machines like CI runners, so it is reported but does
+// not fail the run.
+const isGone = (r) => r.gone || r.status === 404 || r.status === 410;
+
 async function check(url) {
   let result = await fetchStatus(url);
-  const retryable = result.error || result.status === 403 || result.status === 429 || result.status >= 500;
-  if (retryable) {
-    await sleep(RETRY_AFTER_MS);
-    result = await fetchStatus(url);
-  }
+  if (!result.error && result.status < 400) return;
+  await sleep(RETRY_AFTER_MS);
+  result = await fetchStatus(url);
   if (!result.error && result.status < 400) return;
   const reason = result.error ?? `HTTP ${result.status}`;
   const host = new URL(url).hostname;
-  if (BOT_BLOCKED_HOSTS.test(host) || result.error) unverifiable.push({ url, reason });
-  else failures.push({ url, reason });
+  if (isGone(result) && !BOT_BLOCKED_HOSTS.test(host)) failures.push({ url, reason });
+  else unverifiable.push({ url, reason });
 }
 
 // Group by host so each host sees one request at a time with a gap between them.
@@ -113,7 +118,7 @@ await Promise.all(
 
 console.log(`Checked ${links.size} links across ${byHost.size} hosts.`);
 if (unverifiable.length) {
-  console.log(`${unverifiable.length} unverifiable (host blocks scripts or the network hiccuped; open them in a browser):`);
+  console.log(`${unverifiable.length} could not be verified (site refused an automated check; not counted as broken):`);
   for (const f of unverifiable) console.log(`  ${f.reason.padEnd(10)} ${f.url}`);
 }
 if (failures.length) {

@@ -31,12 +31,19 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: 'Open PM Course',
+      title: 'TOPM',
       description:
         'A free, open-source product management curriculum, from first principles to AI product management.',
       social: [{ icon: 'github', label: 'GitHub', href: REPO_URL }],
       editLink: { baseUrl: `${REPO_URL}/edit/main/` },
-      head: GOATCOUNTER_CODE
+      head: [
+        // Link preview image for LinkedIn, X, WhatsApp and Slack (made by scripts/make-share-image.mjs).
+        { tag: 'meta', attrs: { property: 'og:image', content: `https://${GITHUB_USER.toLowerCase()}.github.io/${REPO}/og.png` } },
+        { tag: 'meta', attrs: { property: 'og:image:width', content: '1200' } },
+        { tag: 'meta', attrs: { property: 'og:image:height', content: '630' } },
+        { tag: 'meta', attrs: { property: 'og:image:alt', content: 'The Open Product Management Course (TOPM): free and open source, from first principles to AI product management.' } },
+        { tag: 'meta', attrs: { name: 'twitter:image', content: `https://${GITHUB_USER.toLowerCase()}.github.io/${REPO}/og.png` } },
+        ...(GOATCOUNTER_CODE
         ? [
             {
               tag: 'script',
@@ -44,13 +51,16 @@ export default defineConfig({
             },
             { tag: 'script', attrs: { src: `/${REPO}/analytics.js`, defer: true } },
           ]
-        : [],
+        : []),
+      ],
       lastUpdated: true,
       pagination: true,
       sidebar,
       components: {
         // Sidebar is a closed-by-default drawer showing only the current course.
         PageFrame: './src/components/PageFrame.astro',
+        // Full course name on wide screens, TOPM on phones.
+        SiteTitle: './src/components/SiteTitle.astro',
         Sidebar: './src/components/Sidebar.astro',
         // Light mode by default; Light and Dark only, no system-follow option.
         ThemeProvider: './src/components/ThemeProvider.astro',

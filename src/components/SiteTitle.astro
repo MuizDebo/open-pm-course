@@ -1,0 +1,39 @@
+---
+/*
+  Override of Starlight's SiteTitle: the full course name on wide screens, the short
+  form "TOPM" on phones where the header has no room for it.
+*/
+const { siteTitleHref } = Astro.locals.starlightRoute;
+---
+
+<a href={siteTitleHref} class="site-title sl-flex" aria-label="The Open Product Management Course, home">
+	<span class="short" aria-hidden="true">TOPM</span>
+	<span class="full" aria-hidden="true">The Open Product Management Course</span>
+</a>
+
+<style>
+	@layer starlight.core {
+		.site-title {
+			align-items: center;
+			font-size: var(--sl-text-h4);
+			font-weight: 600;
+			color: var(--sl-color-text-accent);
+			text-decoration: none;
+			white-space: nowrap;
+			min-width: 0;
+		}
+		.full {
+			display: none;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		@media (min-width: 72rem) {
+			.short {
+				display: none;
+			}
+			.full {
+				display: inline;
+			}
+		}
+	}
+</style>
